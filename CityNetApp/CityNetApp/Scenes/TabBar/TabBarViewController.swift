@@ -36,10 +36,31 @@ final class TabBarViewController: UITabBarController, ThemeableViewController {
         dashboardView.tabBarItem = UITabBarItem()
         dashboardView.tabBarItem.title = "Ana səhifə"
         dashboardView.tabBarItem.image = UIImage(named: AppAssets.homeIcon.rawValue)
-//        homeView.tabBarItem.titlePositionAdjustment = .init(horizontal: 0, vertical: -3)
+        
+        // Support
+        let supportVC = SupportViewController()
+        let supportView = MainNavigation(rootViewController: SupportConfigurator.configure(supportVC))
+        supportView.tabBarItem = UITabBarItem()
+        supportView.tabBarItem.title = "Dəstək"
+        supportView.tabBarItem.image = UIImage(named: AppAssets.supportIcon.rawValue)
+        
+        // Tariffs
+        let tariffsVC = TariffsViewController()
+        let tariffsView = MainNavigation(rootViewController: TariffsConfigurator.configure(tariffsVC))
+        tariffsView.tabBarItem = UITabBarItem()
+        tariffsView.tabBarItem.title = "Tariflər"
+        tariffsView.tabBarItem.image = UIImage(named: AppAssets.tagsIcon.rawValue)
+        
+        // More
+        let moreVC = MoreViewController()
+        let moreView = MainNavigation(rootViewController: MoreConfigurator.configure(moreVC))
+        moreView.tabBarItem = UITabBarItem()
+        moreView.tabBarItem.title = "Daha çox"
+        moreView.tabBarItem.image = UIImage(named: AppAssets.moreIcon.rawValue)
         
         
-        let controllers = [dashboardView]
+        
+        let controllers = [dashboardView, supportView, tariffsView, moreView]
         self.viewControllers = controllers
     }
     

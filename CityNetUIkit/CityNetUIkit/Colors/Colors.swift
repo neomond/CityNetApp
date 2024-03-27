@@ -13,6 +13,10 @@ public enum ColorStyle: String, CaseIterable {
     
     case main           = "carmineMain"
     case black          = "blackMain"
+    case paleBlue       = "paleBlue"
+    case grayPrimary    = "grayPrimary"
+    case paleYellow     = "paleYellow"
+    case paleCarmine    = "paleCarmine"
 }
 
 extension ColorStyle {

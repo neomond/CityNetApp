@@ -10,7 +10,17 @@ import UIKit
 public enum AppAssets: String, CaseIterable {
     
     case homeIcon
+    case supportIcon
+    case tagsIcon
+    case moreIcon
    
+    case speedImage40
+    case speedImage50
+    case speedImage100
+    
+    case speedIcon
+    case wifiIcon
+    case fiberOptikIcon
     
 }
 
