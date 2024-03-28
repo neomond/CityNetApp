@@ -89,7 +89,7 @@ extension TariffsView: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
          
-           let header = TableViewHeader()
+           let header = TariffsTableViewHeader()
            return header
        }
     

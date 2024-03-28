@@ -13,6 +13,7 @@ public enum AppAssets: String, CaseIterable {
     case supportIcon
     case tagsIcon
     case moreIcon
+    case infoIcon
    
     case speedImage40
     case speedImage50
