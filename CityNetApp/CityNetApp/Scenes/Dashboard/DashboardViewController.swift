@@ -31,22 +31,18 @@ final class DashboardViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setupNavigationBar()
         self.load()
     }
     
-    private func setupNavigationBar() {
-        
-        let logoImage = AppAssets.brandLogo.load()
-        let logoImageView = UIImageView(image: logoImage)
-        logoImageView.contentMode = .scaleAspectFit
-        let logoItem = UIBarButtonItem(customView: logoImageView)
-        navigationItem.leftBarButtonItem = logoItem
-        
-        let notificationButton = UIButton(type: .custom)
-        notificationButton.setImage(AppAssets.notificationIcon.load(), for: .normal)
-        let barButtonItem = UIBarButtonItem(customView: notificationButton)
-        navigationItem.rightBarButtonItem = barButtonItem
+//    MARK: Hide the navigation bar
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
+//    MARK: Show the navigation bar when leaving the DashboardViewController
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: animated)
     }
      
     
@@ -62,9 +58,7 @@ final class DashboardViewController: UIViewController {
 
 extension DashboardViewController: DashboardDisplayLogic {
     
-    func displayLoad(viewModel: Dashboard.Load.ViewModel) {
-        //nameTextField.text = viewModel.name
-    }
+    func displayLoad(viewModel: Dashboard.Load.ViewModel) { }
 }
 
 // MARK: - View Delegate

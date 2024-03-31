@@ -15,6 +15,7 @@ final class DashboardView: UIView, ThemeableView {
     var theme: ThemeProvider = App.theme
     weak var delegate: DashboardViewDelegate?
     
+    let customNavBarView = CustomNavBarView()
     
     init() {
         super.init(frame: .zero)
@@ -28,6 +29,12 @@ final class DashboardView: UIView, ThemeableView {
     }
     
     override func updateConstraints() {
+        self.customNavBarView.snp.updateConstraints { make in
+            make.top.equalTo(self.safeAreaLayoutGuide.snp.top)
+            make.leading.equalToSuperview().offset(16)
+            make.trailing.equalToSuperview().offset(-16)
+            make.height.equalTo(56)
+        }
         super.updateConstraints()
     }
     
@@ -35,6 +42,8 @@ final class DashboardView: UIView, ThemeableView {
     // MARK: - Private
     
     private func addSubviews() {
+        self.addSubview(self.customNavBarView)
+        
         //self.updateConstraints()
     }
     

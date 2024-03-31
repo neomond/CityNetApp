@@ -96,6 +96,7 @@
 		7AE503A32BB9478200D2C4F5 /* ExtraServicesSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503A22BB9478200D2C4F5 /* ExtraServicesSectionHeaderView.swift */; };
 		7AE503A52BB9485300D2C4F5 /* TableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503A42BB9485300D2C4F5 /* TableView+Ext.swift */; };
 		7AE503A72BB9487100D2C4F5 /* TariffInfoBottomCheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503A62BB9487100D2C4F5 /* TariffInfoBottomCheckoutView.swift */; };
+		7AE503AC2BB9B40900D2C4F5 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503AB2BB9B40900D2C4F5 /* CustomNavBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -189,6 +190,7 @@
 		7AE503A22BB9478200D2C4F5 /* ExtraServicesSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraServicesSectionHeaderView.swift; sourceTree = "<group>"; };
 		7AE503A42BB9485300D2C4F5 /* TableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+Ext.swift"; sourceTree = "<group>"; };
 		7AE503A62BB9487100D2C4F5 /* TariffInfoBottomCheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffInfoBottomCheckoutView.swift; sourceTree = "<group>"; };
+		7AE503AB2BB9B40900D2C4F5 /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -345,6 +347,7 @@
 		7AE502F72BB1C7B100D2C4F5 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				7AE503A82BB9B1DC00D2C4F5 /* Views */,
 				7AE503092BB1C99600D2C4F5 /* DashboardPresenter.swift */,
 				7AE5030A2BB1C99600D2C4F5 /* DashboardWorker.swift */,
 				7AE5030B2BB1C99600D2C4F5 /* DashboardRouter.swift */,
@@ -517,6 +520,30 @@
 			path = Buttons;
 			sourceTree = "<group>";
 		};
+		7AE503A82BB9B1DC00D2C4F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7AE503AA2BB9B20B00D2C4F5 /* CustomViews */,
+				7AE503A92BB9B1E500D2C4F5 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7AE503A92BB9B1E500D2C4F5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7AE503AA2BB9B20B00D2C4F5 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				7AE503AB2BB9B40900D2C4F5 /* CustomNavBarView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -631,6 +658,7 @@
 				7AE503262BB3EB8A00D2C4F5 /* SupportViewController.swift in Sources */,
 				7AE503112BB1C99600D2C4F5 /* DashboardPresenter.swift in Sources */,
 				7AE503252BB3EB8A00D2C4F5 /* SupportModels.swift in Sources */,
+				7AE503AC2BB9B40900D2C4F5 /* CustomNavBarView.swift in Sources */,
 				7AE503662BB53F9000D2C4F5 /* TariffInfoModels.swift in Sources */,
 				7AE5039F2BB9459900D2C4F5 /* ExtraServiceViewCell.swift in Sources */,
 				7AE503A32BB9478200D2C4F5 /* ExtraServicesSectionHeaderView.swift in Sources */,
