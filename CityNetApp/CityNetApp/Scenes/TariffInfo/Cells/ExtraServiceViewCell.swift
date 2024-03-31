@@ -50,6 +50,7 @@ class AdditionalServiceViewCell: UITableViewCell, ThemeableView, AdditionalServi
         self.setupCellBorder()
         self.addSubviews()
     }
+    
     required init?(coder: NSCoder) {
         fatalError()
     }
