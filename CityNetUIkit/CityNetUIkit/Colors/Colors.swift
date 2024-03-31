@@ -20,6 +20,7 @@ public enum ColorStyle: String, CaseIterable {
     case graySecondary  = "graySecondary"
     case grayTertiary   = "grayTertiary"
     case whitePrimary   = "whitePrimary"
+    case paleBlack      = "paleBlack"
 }
 
 extension ColorStyle {
