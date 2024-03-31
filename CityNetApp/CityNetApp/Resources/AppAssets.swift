@@ -14,6 +14,11 @@ public enum AppAssets: String, CaseIterable {
     case tagsIcon
     case moreIcon
     case infoIcon
+    case cellPhoneIcon
+    case channelIcon
+    case ipIcon
+    case tvboxIcon
+    case notificationIcon
    
     case speedImage40
     case speedImage50
@@ -22,6 +27,9 @@ public enum AppAssets: String, CaseIterable {
     case speedIcon
     case wifiIcon
     case fiberOptikIcon
+    
+    case brandLogo
+    
     
 }
 

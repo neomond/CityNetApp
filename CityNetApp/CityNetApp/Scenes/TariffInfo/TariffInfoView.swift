@@ -131,7 +131,7 @@ final class TariffInfoView: UIView, ThemeableView {
 extension TariffInfoView: UITableViewDelegate, UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 4
+        return 3
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -150,8 +150,6 @@ extension TariffInfoView: UITableViewDelegate, UITableViewDataSource {
             guard let cell = tableView.dequeueReusableCell(withIdentifier: TariffInfoCell.identifier, for: indexPath) as? TariffInfoCell else {
                 return UITableViewCell()
             }
-            
-            
             return cell
             
         } else if indexPath.section == 1 {
@@ -161,25 +159,26 @@ extension TariffInfoView: UITableViewDelegate, UITableViewDataSource {
             
             return cell
         }
-        else {
-            
-            let cellIdentifier = "BasicCell"
-            let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier) ?? UITableViewCell(style: .default, reuseIdentifier: cellIdentifier)
-            
-            cell.textLabel?.text = "Section \(indexPath.section), Row \(indexPath.row)"
+        else if indexPath.section == 2 {
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: TariffAdditionalsCell.identifier, for: indexPath) as? TariffAdditionalsCell else {
+                return UITableViewCell()
+            }
             return cell
         }
+        else {
+            return UITableViewCell()
+        }
     }
-
+    
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableView.automaticDimension
     }
     
-//    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
-//        //----for performance
-//        return 100
-//    }
+    //    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+    //        //----for performance
+    //        return 100
+    //    }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         

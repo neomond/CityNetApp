@@ -19,6 +19,7 @@ class TariffInfoTableView: UITableView {
         self.showsVerticalScrollIndicator = false
         self.register(TariffInfoCell.self, forCellReuseIdentifier: TariffInfoCell.identifier)
         self.register(TariffInfoPackageDetailsCell.self, forCellReuseIdentifier: TariffInfoPackageDetailsCell.identifier)
+        self.register(TariffAdditionalsCell.self, forCellReuseIdentifier: TariffAdditionalsCell.identifier)
     }
     
     required init?(coder: NSCoder) {

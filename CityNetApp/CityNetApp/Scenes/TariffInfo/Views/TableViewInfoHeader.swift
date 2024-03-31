@@ -33,7 +33,7 @@ class TariffTableViewInfoHeader: UIView, ThemeableView {
     
     private func setupUI() {
         self.addSubview(titleLabel)
-    
+        self.backgroundColor = .white
         
         self.titleLabel.snp.updateConstraints { make in
             make.bottom.equalToSuperview().offset(-16)

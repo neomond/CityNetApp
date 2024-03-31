@@ -19,7 +19,14 @@ class TariffInfoPackageDetailsCell: UITableViewCell, ThemeableView {
         let view = UIView()
         view.backgroundColor = .white
         view.layer.cornerRadius = 10
+        view.layer.borderWidth = 1
         view.layer.borderColor = adaptiveColor(.grayPrimary).cgColor
+        
+        view.layer.shadowColor = UIColor.black.cgColor
+        view.layer.shadowOffset = CGSize(width: 0, height: 4)
+        view.layer.shadowOpacity = 0.1
+        view.layer.shadowRadius = 10
+        
         return view
     }()
     
@@ -59,7 +66,7 @@ class TariffInfoPackageDetailsCell: UITableViewCell, ThemeableView {
     lazy var featureStackView: UIStackView = {
         let stackView = UIStackView()
         stackView.axis = .vertical
-        stackView.spacing = 4
+        stackView.spacing = 24
         stackView.distribution = .fillEqually
         stackView.alignment = .leading
         return stackView
@@ -78,13 +85,19 @@ class TariffInfoPackageDetailsCell: UITableViewCell, ThemeableView {
         FeatureView(featureIconName: AppAssets.wifiIcon.rawValue, featureText: "Wi-Fi ruter (PULSUZ)")
     }()
     
-    
     lazy var tvFeatureView: FeatureView = {
-        FeatureView(featureIconName: AppAssets.wifiIcon.rawValue, featureText: "Wi-Fi ruter (PULSUZ)")
+        FeatureView(featureIconName: AppAssets.tvboxIcon.rawValue, featureText: "TV Box")
     }()
     
+    lazy var channelFeatureView: FeatureView = {
+        FeatureView(featureIconName: AppAssets.channelIcon.rawValue, featureText: "240 kanal")
+    }()
     
- 
+    lazy var homePhoneFeatureView: FeatureView = {
+        FeatureView(featureIconName: AppAssets.cellPhoneIcon.rawValue, featureText: "Ev telefonu xətti")
+    }()
+   
+
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -97,15 +110,16 @@ class TariffInfoPackageDetailsCell: UITableViewCell, ThemeableView {
         self.cardView.addSubview(iconImageView)
         self.cardView.addSubview(featureStackView)
         
-        
         self.featureStackView.addArrangedSubview(fiberOptikFeatureView)
         self.featureStackView.addArrangedSubview(speedFeatureView)
         self.featureStackView.addArrangedSubview(wifiFeatureView)
         self.featureStackView.addArrangedSubview(tvFeatureView)
+        self.featureStackView.addArrangedSubview(channelFeatureView)
+        self.featureStackView.addArrangedSubview(homePhoneFeatureView)
+        
         self.updateConstraints()
     }
-    
-    
+        
     
     override func updateConstraints() {
         super.updateConstraints()
@@ -130,9 +144,9 @@ class TariffInfoPackageDetailsCell: UITableViewCell, ThemeableView {
             make.trailing.equalToSuperview().offset(-12)
         }
         self.featureStackView.snp.updateConstraints { make in
-            make.top.equalTo(cardViewHeader.snp.bottom).offset(8)
+            make.top.equalTo(cardViewHeader.snp.bottom).offset(20)
             make.leading.trailing.equalToSuperview().inset(16)
-            make.bottom.equalToSuperview().offset(-8)
+            make.bottom.equalToSuperview().offset(-20)
         }
     }
     

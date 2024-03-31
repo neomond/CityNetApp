@@ -33,6 +33,7 @@ final class TabBarViewController: UITabBarController, ThemeableViewController {
         // Home
         let dashboardVC = DashboardViewController()
         let dashboardView = MainNavigation(rootViewController: DashboardConfigurator.configure(dashboardVC))
+        dashboardView.barTintColor = adaptiveColor(.black)
         dashboardView.tabBarItem = UITabBarItem()
         dashboardView.tabBarItem.title = "Ana səhifə"
         dashboardView.tabBarItem.image = UIImage(named: AppAssets.homeIcon.rawValue)

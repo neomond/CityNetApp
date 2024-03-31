@@ -6,13 +6,13 @@
 //
 
 import UIKit
+import CityNetUIkit
 
-protocol DashboardViewDelegate: AnyObject {
-    
-}
+protocol DashboardViewDelegate: AnyObject {}
 
-final class DashboardView: UIView {
+final class DashboardView: UIView, ThemeableView {
     
+    var theme: ThemeProvider = App.theme
     weak var delegate: DashboardViewDelegate?
     
     
@@ -39,6 +39,6 @@ final class DashboardView: UIView {
     }
     
     private func setupUI() {
-        self.backgroundColor = .white
+        self.backgroundColor = adaptiveColor(.black)
     }
 }
