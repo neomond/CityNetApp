@@ -18,11 +18,13 @@ public enum ColorStyle: String, CaseIterable {
     case paleYellow     = "paleYellow"
     case paleCarmine    = "paleCarmine"
     case graySecondary  = "graySecondary"
+    case grayTertiary   = "grayTertiary"
+    case whitePrimary   = "whitePrimary"
 }
 
 extension ColorStyle {
     
-    func load() -> UIColor? {
+   public func load() -> UIColor? {
         if #available(iOS 13.0, *) {
             return UIColor(named: self.rawValue, in: bundle, compatibleWith: .current)
         } else {

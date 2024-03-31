@@ -74,17 +74,28 @@
 		7AE503682BB53F9000D2C4F5 /* TariffInfoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503602BB53F9000D2C4F5 /* TariffInfoInteractor.swift */; };
 		7AE503692BB53F9000D2C4F5 /* TariffInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503612BB53F9000D2C4F5 /* TariffInfoView.swift */; };
 		7AE5036A2BB53F9000D2C4F5 /* TariffInfoConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503622BB53F9000D2C4F5 /* TariffInfoConfigurator.swift */; };
-		7AE5036F2BB541C600D2C4F5 /* TariffInfoTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5036E2BB541C600D2C4F5 /* TariffInfoTableView.swift */; };
 		7AE503712BB545B000D2C4F5 /* TableViewInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503702BB545B000D2C4F5 /* TableViewInfoHeader.swift */; };
 		7AE503732BB546DD00D2C4F5 /* TariffInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503722BB546DD00D2C4F5 /* TariffInfoCell.swift */; };
-		7AE503752BB581F400D2C4F5 /* BorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503742BB581F400D2C4F5 /* BorderView.swift */; };
 		7AE503772BB5948600D2C4F5 /* TariffInfoPackageDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503762BB5948600D2C4F5 /* TariffInfoPackageDetailsCell.swift */; };
 		7AE503792BB59A1700D2C4F5 /* TariffInfoToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503782BB59A1700D2C4F5 /* TariffInfoToastView.swift */; };
-		7AE5037B2BB60DDB00D2C4F5 /* TariffAdditionalsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5037A2BB60DDA00D2C4F5 /* TariffAdditionalsCell.swift */; };
 		7AE5037D2BB6144100D2C4F5 /* AdditionalServicesHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5037C2BB6144100D2C4F5 /* AdditionalServicesHeaderView.swift */; };
-		7AE5037F2BB619B800D2C4F5 /* ServiceOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5037E2BB619B800D2C4F5 /* ServiceOptionView.swift */; };
-		7AE503812BB69F4700D2C4F5 /* ServicePlusOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503802BB69F4700D2C4F5 /* ServicePlusOptionView.swift */; };
-		7AE503832BB6A63600D2C4F5 /* CustomStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503822BB6A63600D2C4F5 /* CustomStepper.swift */; };
+		7AE503862BB93B3500D2C4F5 /* ServiceOptionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503852BB93B3500D2C4F5 /* ServiceOptionType.swift */; };
+		7AE503882BB93C6500D2C4F5 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503872BB93C6500D2C4F5 /* TitleTableViewCell.swift */; };
+		7AE5038A2BB93D7900D2C4F5 /* TariffInfoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503892BB93D7900D2C4F5 /* TariffInfoCardView.swift */; };
+		7AE5038C2BB93DAD00D2C4F5 /* TariffModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5038B2BB93DAD00D2C4F5 /* TariffModel.swift */; };
+		7AE5038E2BB93E5F00D2C4F5 /* ExtraServiceSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5038D2BB93E5F00D2C4F5 /* ExtraServiceSingleView.swift */; };
+		7AE503902BB93F3300D2C4F5 /* DeleteServiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5038F2BB93F3300D2C4F5 /* DeleteServiceButton.swift */; };
+		7AE503922BB93FA800D2C4F5 /* AppStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503912BB93FA800D2C4F5 /* AppStepper.swift */; };
+		7AE503942BB941D100D2C4F5 /* TariffCellTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503932BB941D100D2C4F5 /* TariffCellTopView.swift */; };
+		7AE503962BB9423F00D2C4F5 /* TariffContentSingleTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503952BB9423F00D2C4F5 /* TariffContentSingleTile.swift */; };
+		7AE503982BB9448600D2C4F5 /* ToastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503972BB9448600D2C4F5 /* ToastTableViewCell.swift */; };
+		7AE5039A2BB944B400D2C4F5 /* TariffTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503992BB944B400D2C4F5 /* TariffTableViewCell.swift */; };
+		7AE5039D2BB9451000D2C4F5 /* AppPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5039C2BB9451000D2C4F5 /* AppPrimaryButton.swift */; };
+		7AE5039F2BB9459900D2C4F5 /* ExtraServiceViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5039E2BB9459900D2C4F5 /* ExtraServiceViewCell.swift */; };
+		7AE503A12BB946A100D2C4F5 /* AppDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503A02BB946A100D2C4F5 /* AppDivider.swift */; };
+		7AE503A32BB9478200D2C4F5 /* ExtraServicesSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503A22BB9478200D2C4F5 /* ExtraServicesSectionHeaderView.swift */; };
+		7AE503A52BB9485300D2C4F5 /* TableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503A42BB9485300D2C4F5 /* TableView+Ext.swift */; };
+		7AE503A72BB9487100D2C4F5 /* TariffInfoBottomCheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503A62BB9487100D2C4F5 /* TariffInfoBottomCheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -156,17 +167,28 @@
 		7AE503602BB53F9000D2C4F5 /* TariffInfoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffInfoInteractor.swift; sourceTree = "<group>"; };
 		7AE503612BB53F9000D2C4F5 /* TariffInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffInfoView.swift; sourceTree = "<group>"; };
 		7AE503622BB53F9000D2C4F5 /* TariffInfoConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffInfoConfigurator.swift; sourceTree = "<group>"; };
-		7AE5036E2BB541C600D2C4F5 /* TariffInfoTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffInfoTableView.swift; sourceTree = "<group>"; };
 		7AE503702BB545B000D2C4F5 /* TableViewInfoHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewInfoHeader.swift; sourceTree = "<group>"; };
 		7AE503722BB546DD00D2C4F5 /* TariffInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffInfoCell.swift; sourceTree = "<group>"; };
-		7AE503742BB581F400D2C4F5 /* BorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderView.swift; sourceTree = "<group>"; };
 		7AE503762BB5948600D2C4F5 /* TariffInfoPackageDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffInfoPackageDetailsCell.swift; sourceTree = "<group>"; };
 		7AE503782BB59A1700D2C4F5 /* TariffInfoToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffInfoToastView.swift; sourceTree = "<group>"; };
-		7AE5037A2BB60DDA00D2C4F5 /* TariffAdditionalsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffAdditionalsCell.swift; sourceTree = "<group>"; };
 		7AE5037C2BB6144100D2C4F5 /* AdditionalServicesHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalServicesHeaderView.swift; sourceTree = "<group>"; };
-		7AE5037E2BB619B800D2C4F5 /* ServiceOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceOptionView.swift; sourceTree = "<group>"; };
-		7AE503802BB69F4700D2C4F5 /* ServicePlusOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicePlusOptionView.swift; sourceTree = "<group>"; };
-		7AE503822BB6A63600D2C4F5 /* CustomStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStepper.swift; sourceTree = "<group>"; };
+		7AE503852BB93B3500D2C4F5 /* ServiceOptionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceOptionType.swift; sourceTree = "<group>"; };
+		7AE503872BB93C6500D2C4F5 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		7AE503892BB93D7900D2C4F5 /* TariffInfoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffInfoCardView.swift; sourceTree = "<group>"; };
+		7AE5038B2BB93DAD00D2C4F5 /* TariffModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffModel.swift; sourceTree = "<group>"; };
+		7AE5038D2BB93E5F00D2C4F5 /* ExtraServiceSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraServiceSingleView.swift; sourceTree = "<group>"; };
+		7AE5038F2BB93F3300D2C4F5 /* DeleteServiceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteServiceButton.swift; sourceTree = "<group>"; };
+		7AE503912BB93FA800D2C4F5 /* AppStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStepper.swift; sourceTree = "<group>"; };
+		7AE503932BB941D100D2C4F5 /* TariffCellTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffCellTopView.swift; sourceTree = "<group>"; };
+		7AE503952BB9423F00D2C4F5 /* TariffContentSingleTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffContentSingleTile.swift; sourceTree = "<group>"; };
+		7AE503972BB9448600D2C4F5 /* ToastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastTableViewCell.swift; sourceTree = "<group>"; };
+		7AE503992BB944B400D2C4F5 /* TariffTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffTableViewCell.swift; sourceTree = "<group>"; };
+		7AE5039C2BB9451000D2C4F5 /* AppPrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPrimaryButton.swift; sourceTree = "<group>"; };
+		7AE5039E2BB9459900D2C4F5 /* ExtraServiceViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraServiceViewCell.swift; sourceTree = "<group>"; };
+		7AE503A02BB946A100D2C4F5 /* AppDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDivider.swift; sourceTree = "<group>"; };
+		7AE503A22BB9478200D2C4F5 /* ExtraServicesSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraServicesSectionHeaderView.swift; sourceTree = "<group>"; };
+		7AE503A42BB9485300D2C4F5 /* TableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+Ext.swift"; sourceTree = "<group>"; };
+		7AE503A62BB9487100D2C4F5 /* TariffInfoBottomCheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffInfoBottomCheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,7 +225,7 @@
 		7AE5028F2BB1C0E100D2C4F5 /* CityNetApp */ = {
 			isa = PBXGroup;
 			children = (
-				7AE502E72BB1C50900D2C4F5 /* Model */,
+				7AE502E72BB1C50900D2C4F5 /* Models */,
 				7AE502E22BB1C4D100D2C4F5 /* Extensions */,
 				7AE502D72BB1C3EE00D2C4F5 /* Helpers */,
 				7AE502D62BB1C3E300D2C4F5 /* Views */,
@@ -259,6 +281,9 @@
 		7AE502D62BB1C3E300D2C4F5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7AE5039B2BB9450700D2C4F5 /* Buttons */,
+				7AE503912BB93FA800D2C4F5 /* AppStepper.swift */,
+				7AE503A02BB946A100D2C4F5 /* AppDivider.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -295,15 +320,17 @@
 			children = (
 				7AE502E32BB1C4DB00D2C4F5 /* Extension.swift */,
 				7AE502E52BB1C4F000D2C4F5 /* Cell+Configurer.swift */,
+				7AE503A42BB9485300D2C4F5 /* TableView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		7AE502E72BB1C50900D2C4F5 /* Model */ = {
+		7AE502E72BB1C50900D2C4F5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7AE5038B2BB93DAD00D2C4F5 /* TariffModel.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		7AE502F22BB1C74E00D2C4F5 /* Frameworks */ = {
@@ -421,7 +448,7 @@
 		7AE5035A2BB53F7B00D2C4F5 /* TariffInfo */ = {
 			isa = PBXGroup;
 			children = (
-				7AE5036D2BB5419900D2C4F5 /* CustomViews */,
+				7AE503842BB93AA400D2C4F5 /* Model */,
 				7AE5036C2BB5418D00D2C4F5 /* Views */,
 				7AE5036B2BB5418700D2C4F5 /* Cells */,
 				7AE5035B2BB53F9000D2C4F5 /* TariffInfoPresenter.swift */,
@@ -441,7 +468,10 @@
 			children = (
 				7AE503722BB546DD00D2C4F5 /* TariffInfoCell.swift */,
 				7AE503762BB5948600D2C4F5 /* TariffInfoPackageDetailsCell.swift */,
-				7AE5037A2BB60DDA00D2C4F5 /* TariffAdditionalsCell.swift */,
+				7AE503872BB93C6500D2C4F5 /* TitleTableViewCell.swift */,
+				7AE503972BB9448600D2C4F5 /* ToastTableViewCell.swift */,
+				7AE503992BB944B400D2C4F5 /* TariffTableViewCell.swift */,
+				7AE5039E2BB9459900D2C4F5 /* ExtraServiceViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -449,8 +479,9 @@
 		7AE5036C2BB5418D00D2C4F5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7AE5036E2BB541C600D2C4F5 /* TariffInfoTableView.swift */,
+				7AE5036D2BB5419900D2C4F5 /* CustomViews */,
 				7AE503702BB545B000D2C4F5 /* TableViewInfoHeader.swift */,
+				7AE503932BB941D100D2C4F5 /* TariffCellTopView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -458,14 +489,32 @@
 		7AE5036D2BB5419900D2C4F5 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
-				7AE503742BB581F400D2C4F5 /* BorderView.swift */,
 				7AE503782BB59A1700D2C4F5 /* TariffInfoToastView.swift */,
 				7AE5037C2BB6144100D2C4F5 /* AdditionalServicesHeaderView.swift */,
-				7AE5037E2BB619B800D2C4F5 /* ServiceOptionView.swift */,
-				7AE503802BB69F4700D2C4F5 /* ServicePlusOptionView.swift */,
-				7AE503822BB6A63600D2C4F5 /* CustomStepper.swift */,
+				7AE503892BB93D7900D2C4F5 /* TariffInfoCardView.swift */,
+				7AE5038D2BB93E5F00D2C4F5 /* ExtraServiceSingleView.swift */,
+				7AE5038F2BB93F3300D2C4F5 /* DeleteServiceButton.swift */,
+				7AE503952BB9423F00D2C4F5 /* TariffContentSingleTile.swift */,
+				7AE503A22BB9478200D2C4F5 /* ExtraServicesSectionHeaderView.swift */,
+				7AE503A62BB9487100D2C4F5 /* TariffInfoBottomCheckoutView.swift */,
 			);
 			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		7AE503842BB93AA400D2C4F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AE503852BB93B3500D2C4F5 /* ServiceOptionType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AE5039B2BB9450700D2C4F5 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				7AE5039C2BB9451000D2C4F5 /* AppPrimaryButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -545,13 +594,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AE503072BB1C7E400D2C4F5 /* TabBarView.swift in Sources */,
+				7AE503A72BB9487100D2C4F5 /* TariffInfoBottomCheckoutView.swift in Sources */,
 				7AE503332BB3ED2600D2C4F5 /* TariffsPresenter.swift in Sources */,
 				7AE503152BB1C99600D2C4F5 /* DashboardViewController.swift in Sources */,
 				7AE502DD2BB1C41F00D2C4F5 /* ThemeableView.swift in Sources */,
 				7AE503382BB3ED2600D2C4F5 /* TariffsInteractor.swift in Sources */,
 				7AE503652BB53F9000D2C4F5 /* TariffInfoRouter.swift in Sources */,
 				7AE503122BB1C99600D2C4F5 /* DashboardWorker.swift in Sources */,
-				7AE503812BB69F4700D2C4F5 /* ServicePlusOptionView.swift in Sources */,
+				7AE5039A2BB944B400D2C4F5 /* TariffTableViewCell.swift in Sources */,
+				7AE503A52BB9485300D2C4F5 /* TableView+Ext.swift in Sources */,
 				7AE503242BB3EB8A00D2C4F5 /* SupportRouter.swift in Sources */,
 				7AE5034A2BB3EDA500D2C4F5 /* MoreView.swift in Sources */,
 				7AE502D42BB1C3AF00D2C4F5 /* AppAssets.swift in Sources */,
@@ -559,6 +610,7 @@
 				7AE502E12BB1C49600D2C4F5 /* ViewController+Navigation.swift in Sources */,
 				7AE503712BB545B000D2C4F5 /* TableViewInfoHeader.swift in Sources */,
 				7AE5036A2BB53F9000D2C4F5 /* TariffInfoConfigurator.swift in Sources */,
+				7AE503942BB941D100D2C4F5 /* TariffCellTopView.swift in Sources */,
 				7AE503682BB53F9000D2C4F5 /* TariffInfoInteractor.swift in Sources */,
 				7AE5033A2BB3ED2600D2C4F5 /* TariffsConfigurator.swift in Sources */,
 				7AE503082BB1C7E400D2C4F5 /* TabBarConfigurator.swift in Sources */,
@@ -569,27 +621,33 @@
 				7AE503732BB546DD00D2C4F5 /* TariffInfoCell.swift in Sources */,
 				7AE502E62BB1C4F000D2C4F5 /* Cell+Configurer.swift in Sources */,
 				7AE503592BB499B300D2C4F5 /* TableViewHeader.swift in Sources */,
+				7AE503882BB93C6500D2C4F5 /* TitleTableViewCell.swift in Sources */,
 				7AE503642BB53F9000D2C4F5 /* TariffInfoWorker.swift in Sources */,
 				7AE503772BB5948600D2C4F5 /* TariffInfoPackageDetailsCell.swift in Sources */,
 				7AE503792BB59A1700D2C4F5 /* TariffInfoToastView.swift in Sources */,
 				7AE503442BB3EDA500D2C4F5 /* MorePresenter.swift in Sources */,
 				7AE503012BB1C7E400D2C4F5 /* TabBarPresenter.swift in Sources */,
 				7AE503032BB1C7E400D2C4F5 /* TabBarRouter.swift in Sources */,
-				7AE503752BB581F400D2C4F5 /* BorderView.swift in Sources */,
 				7AE503262BB3EB8A00D2C4F5 /* SupportViewController.swift in Sources */,
 				7AE503112BB1C99600D2C4F5 /* DashboardPresenter.swift in Sources */,
 				7AE503252BB3EB8A00D2C4F5 /* SupportModels.swift in Sources */,
 				7AE503662BB53F9000D2C4F5 /* TariffInfoModels.swift in Sources */,
+				7AE5039F2BB9459900D2C4F5 /* ExtraServiceViewCell.swift in Sources */,
+				7AE503A32BB9478200D2C4F5 /* ExtraServicesSectionHeaderView.swift in Sources */,
+				7AE503902BB93F3300D2C4F5 /* DeleteServiceButton.swift in Sources */,
 				7AE503282BB3EB8A00D2C4F5 /* SupportView.swift in Sources */,
 				7AE5037D2BB6144100D2C4F5 /* AdditionalServicesHeaderView.swift in Sources */,
 				7AE503692BB53F9000D2C4F5 /* TariffInfoView.swift in Sources */,
-				7AE5037B2BB60DDB00D2C4F5 /* TariffAdditionalsCell.swift in Sources */,
+				7AE5038A2BB93D7900D2C4F5 /* TariffInfoCardView.swift in Sources */,
 				7AE503132BB1C99600D2C4F5 /* DashboardRouter.swift in Sources */,
 				7AE503392BB3ED2600D2C4F5 /* TariffsView.swift in Sources */,
 				7AE503632BB53F9000D2C4F5 /* TariffInfoPresenter.swift in Sources */,
 				7AE503572BB4397200D2C4F5 /* FeatureView.swift in Sources */,
+				7AE503922BB93FA800D2C4F5 /* AppStepper.swift in Sources */,
 				7AE502E42BB1C4DB00D2C4F5 /* Extension.swift in Sources */,
 				7AE503372BB3ED2600D2C4F5 /* TariffsViewController.swift in Sources */,
+				7AE503962BB9423F00D2C4F5 /* TariffContentSingleTile.swift in Sources */,
+				7AE503862BB93B3500D2C4F5 /* ServiceOptionType.swift in Sources */,
 				7AE502DF2BB1C46A00D2C4F5 /* MainNavigation.swift in Sources */,
 				7AE5034F2BB3F40B00D2C4F5 /* TariffsCell.swift in Sources */,
 				7AE503492BB3EDA500D2C4F5 /* MoreInteractor.swift in Sources */,
@@ -597,26 +655,28 @@
 				7AE503292BB3EB8A00D2C4F5 /* SupportConfigurator.swift in Sources */,
 				7AE503222BB3EB8A00D2C4F5 /* SupportPresenter.swift in Sources */,
 				7AE503462BB3EDA500D2C4F5 /* MoreRouter.swift in Sources */,
-				7AE5037F2BB619B800D2C4F5 /* ServiceOptionView.swift in Sources */,
 				7AE503472BB3EDA500D2C4F5 /* MoreModels.swift in Sources */,
 				7AE503352BB3ED2600D2C4F5 /* TariffsRouter.swift in Sources */,
 				7AE503062BB1C7E400D2C4F5 /* TabBarInteractor.swift in Sources */,
 				7AE503142BB1C99600D2C4F5 /* DashboardModels.swift in Sources */,
 				7AE503482BB3EDA500D2C4F5 /* MoreViewController.swift in Sources */,
+				7AE503A12BB946A100D2C4F5 /* AppDivider.swift in Sources */,
 				7AE502CE2BB1C1A500D2C4F5 /* AppContainer.swift in Sources */,
 				7AE502912BB1C0E100D2C4F5 /* AppDelegate.swift in Sources */,
 				7AE502DB2BB1C41600D2C4F5 /* ThemeableViewController.swift in Sources */,
-				7AE5036F2BB541C600D2C4F5 /* TariffInfoTableView.swift in Sources */,
+				7AE503982BB9448600D2C4F5 /* ToastTableViewCell.swift in Sources */,
 				7AE503042BB1C7E400D2C4F5 /* TabBarModels.swift in Sources */,
-				7AE503832BB6A63600D2C4F5 /* CustomStepper.swift in Sources */,
 				7AE503342BB3ED2600D2C4F5 /* TariffsWorker.swift in Sources */,
 				7AE502D02BB1C1B300D2C4F5 /* AppRouter.swift in Sources */,
 				7AE503512BB3F69300D2C4F5 /* TariffsTableView.swift in Sources */,
+				7AE5039D2BB9451000D2C4F5 /* AppPrimaryButton.swift in Sources */,
+				7AE5038E2BB93E5F00D2C4F5 /* ExtraServiceSingleView.swift in Sources */,
 				7AE503052BB1C7E400D2C4F5 /* TabBarViewController.swift in Sources */,
 				7AE503672BB53F9000D2C4F5 /* TariffInfoViewController.swift in Sources */,
 				7AE503362BB3ED2600D2C4F5 /* TariffsModels.swift in Sources */,
 				7AE503022BB1C7E400D2C4F5 /* TabBarWorker.swift in Sources */,
 				7AE503162BB1C99600D2C4F5 /* DashboardInteractor.swift in Sources */,
+				7AE5038C2BB93DAD00D2C4F5 /* TariffModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

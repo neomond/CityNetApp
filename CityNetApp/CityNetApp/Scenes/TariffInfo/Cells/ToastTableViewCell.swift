@@ -1,18 +1,14 @@
 //
-//  TariffInfoCell.swift
+//  ToastTableViewCell.swift
 //  CityNetApp
 //
-//  Created by Nazrin Atayeva on 28.03.24.
+//  Created by Nazrin Atayeva on 31.03.24.
 //
 
-
 import UIKit
-import SnapKit
-import CityNetUIkit
 
-
- final class TariffInfoCell: UITableViewCell {
-    static let identifier = "TariffInfoCell"
+ final class ToastTableViewCell: UITableViewCell {
+    
     private var toastView: TariffInfoToastView = {
         let view = TariffInfoToastView()
         return view
@@ -23,7 +19,7 @@ import CityNetUIkit
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        self.selectionStyle = .none
+        self.setupCell(with: .white)
         self.addSubviews()
     }
     

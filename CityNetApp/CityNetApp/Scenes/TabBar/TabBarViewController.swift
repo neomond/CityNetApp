@@ -53,20 +53,15 @@ final class TabBarViewController: UITabBarController, ThemeableViewController {
         tariffsView.tabBarItem.image = UIImage(named: AppAssets.tagsIcon.rawValue)
         
         // More
-//        let moreVC = MoreViewController()
-//        let moreView = MainNavigation(rootViewController: MoreConfigurator.configure(moreVC))
-//        moreView.tabBarItem = UITabBarItem()
-//        moreView.tabBarItem.title = "Daha çox"
-//        moreView.tabBarItem.image = UIImage(named: AppAssets.moreIcon.rawValue)
-//        
+        let moreVC = MoreViewController()
+        let moreView = MainNavigation(rootViewController: MoreConfigurator.configure(moreVC))
+        moreView.tabBarItem = UITabBarItem()
+        moreView.tabBarItem.title = "Daha çox"
+        moreView.tabBarItem.image = UIImage(named: AppAssets.moreIcon.rawValue)
         
-        let tariffInfoVC = TariffInfoViewController()
-        let tariffInfoView = MainNavigation(rootViewController: TariffInfoConfigurator.configure(tariffInfoVC))
-        tariffInfoVC.tabBarItem = UITabBarItem()
-        tariffInfoVC.tabBarItem.title = "Daha çox"
-        tariffInfoVC.tabBarItem.image = UIImage(named: AppAssets.moreIcon.rawValue)
         
-        let controllers = [dashboardView, supportView, tariffsView, tariffInfoView]
+        
+        let controllers = [dashboardView, supportView, tariffsView, moreView]
         self.viewControllers = controllers
     }
     

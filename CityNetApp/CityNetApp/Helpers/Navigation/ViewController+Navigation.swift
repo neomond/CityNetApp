@@ -35,9 +35,10 @@ extension UIViewController {
     // MARK: - Private
     
     private func addBackButton() {
+      
         navigationItem.leftBarButtonItem = UIBarButtonItem(
-            image: UIImage(named: "back"),
-            style: .plain,
+            image: UIImage(named: AppAssets.backIcon.rawValue),
+            style: .done,
             target: self,
             action: #selector(popToPrevious)
         )
@@ -87,3 +88,4 @@ extension UIViewController {
         }
     }
 }
+

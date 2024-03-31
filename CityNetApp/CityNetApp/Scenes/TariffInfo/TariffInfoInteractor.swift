@@ -14,14 +14,17 @@ protocol TariffInfoBusinessLogic {
 
 protocol TariffInfoDataStore {
     
-    //var name: String { get set }
+    var tariffModel: TariffModel? { get set }
 }
 
 final class TariffInfoInteractor: TariffInfoBusinessLogic, TariffInfoDataStore {
+   
+    var tariffModel: TariffModel?
+    
     
     var presenter: TariffInfoPresentationLogic?
     lazy var worker: TariffInfoWorkingLogic = TariffInfoWorker()
-    //var name: String = ""
+   
   
     
     // MARK: Business Logic

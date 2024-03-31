@@ -19,6 +19,9 @@ public enum AppAssets: String, CaseIterable {
     case ipIcon
     case tvboxIcon
     case notificationIcon
+    case plusIcon
+    case backIcon
+    case minusIcon
    
     case speedImage40
     case speedImage50

@@ -9,34 +9,18 @@ import UIKit
 import SnapKit
 import CityNetUIkit
 
-class TariffsTableViewHeader: UIView, ThemeableView {
+class TariffsTableViewHeader: UILabel, ThemeableView {
     
     var theme: ThemeProvider = App.theme
     
-    lazy var titleLabel: UILabel = {
-        let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 34, weight: .bold)
-        label.textColor = adaptiveColor(.black)
-        label.textAlignment = .left
-        label.text = "Tariflər"
-        return label
-    }()
-    
+    //MARK: Init
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.setupUI()
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-    private func setupUI() {
-        self.addSubview(titleLabel)
-        self.backgroundColor = adaptiveColor(.grayPrimary)
+        self.text = "Tariflər"
+        self.font = AppFonts.SFBoldLargeTitle.fontStyle
         
-        self.titleLabel.snp.updateConstraints { make in
-            make.bottom.equalToSuperview().offset(-16)
-        }
+    }
+    required init?(coder: NSCoder) {
+        fatalError()
     }
 }

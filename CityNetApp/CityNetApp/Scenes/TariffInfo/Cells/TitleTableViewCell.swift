@@ -1,43 +1,40 @@
 //
-//  TariffInfoCell.swift
+//  TitleTableViewCell.swift
 //  CityNetApp
 //
-//  Created by Nazrin Atayeva on 28.03.24.
+//  Created by Nazrin Atayeva on 31.03.24.
 //
 
-
 import UIKit
-import SnapKit
 import CityNetUIkit
 
-
- final class TariffInfoCell: UITableViewCell {
-    static let identifier = "TariffInfoCell"
-    private var toastView: TariffInfoToastView = {
-        let view = TariffInfoToastView()
-        return view
+ final class TitleTableViewCell: UITableViewCell {
+    
+    private var titleLabel: UILabel = {
+        let lbl = UILabel()
+        lbl.text = "Tarif haqqında"
+        lbl.font = AppFonts.SFBoldLargeTitle.fontStyle
+        return lbl
     }()
-    
-    
-    //MARK: Init
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        self.selectionStyle = .none
+        self.setupCell(with: .white)
         self.addSubviews()
     }
     
     required init?(coder: NSCoder) {
         fatalError()
     }
+    
     private func addSubviews() {
-        self.contentView.addSubview(self.toastView)
+        self.contentView.addSubview(self.titleLabel)
         self.updateConstraints()
     }
     override func updateConstraints() {
         super.updateConstraints()
         
-        self.toastView.snp.updateConstraints { make in
+        self.titleLabel.snp.updateConstraints { make in
             make.edges.equalToSuperview()
         }
     }

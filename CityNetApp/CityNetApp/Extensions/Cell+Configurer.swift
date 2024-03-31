@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CityNetUIkit
 
 public protocol CellConfigurer: AnyObject {
     static var reuseIdentifier: String {get}
@@ -18,3 +19,12 @@ public extension CellConfigurer {
 }
 
 extension UICollectionViewCell: CellConfigurer { }
+extension UITableViewCell: CellConfigurer { }
+
+
+extension UITableViewCell {
+    func setupCell(with color: UIColor? = nil) {
+        self.contentView.backgroundColor = color ?? .white
+        self.selectionStyle = .none
+    }
+}

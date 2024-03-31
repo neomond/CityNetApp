@@ -7,9 +7,9 @@
 
 import UIKit
 
-@objc protocol TariffsRoutingLogic {
+protocol TariffsRoutingLogic {
     
-    //func routeToSomewhere()
+    func routeToTariffInfo(model: TariffModel)
 }
 
 protocol TariffsDataPassing {
@@ -24,27 +24,28 @@ final class TariffsRouter: NSObject, TariffsRoutingLogic, TariffsDataPassing {
     
     // MARK: Routing
 
-//    func routeToSomewhere() {
-//        let destinationVC = SomewhereViewController()
-//        SomewhereConfigurator.configure(destinationVC)
-//
-//        var destinationDS = destinationVC.router!.dataStore!
-//        passDataToSomewhere(source: dataStore!, destination: &destinationDS)
-//
-//        navigateToSomewhere(source: viewController!, destination: destinationVC)
-//    }
+    func routeToTariffInfo(model: TariffModel) {
+        let destinationVC = TariffInfoViewController()
+        TariffInfoConfigurator.configure(destinationVC)
+        
+        dataStore?.tariffModel = model
+        var destinationDS = destinationVC.router!.dataStore!
+        destinationVC.hidesBottomBarWhenPushed = true
+        passDataToTariffInfo(source: dataStore!, destination: &destinationDS)
+       
+        navigateToTariffInfo(source: viewController!, destination: destinationVC)
+    }
 
     
     // MARK: Navigation
 
-//    func navigateToSomewhere(source: TariffsViewController, destination: SomewhereViewController) {
-//        source.show(destination, sender: nil)
-//    }
+    func navigateToTariffInfo(source: TariffsViewController, destination: TariffInfoViewController) {
+        source.show(destination, sender: nil)
+    }
 
-    
+
     // MARK: Passing data
-
-//    func passDataToSomewhere(source: TariffsDataStore, destination: inout SomewhereDataStore) {
-//        destination.name = source.name
-//    }
+    func passDataToTariffInfo(source: TariffsDataStore, destination: inout TariffInfoDataStore) {
+        destination.tariffModel = source.tariffModel
+    }
 }
