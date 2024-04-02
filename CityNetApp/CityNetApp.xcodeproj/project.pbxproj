@@ -97,6 +97,9 @@
 		7AE503A52BB9485300D2C4F5 /* TableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503A42BB9485300D2C4F5 /* TableView+Ext.swift */; };
 		7AE503A72BB9487100D2C4F5 /* TariffInfoBottomCheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503A62BB9487100D2C4F5 /* TariffInfoBottomCheckoutView.swift */; };
 		7AE503AC2BB9B40900D2C4F5 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503AB2BB9B40900D2C4F5 /* CustomNavBarView.swift */; };
+		7AE503AE2BBC96AA00D2C4F5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503AD2BBC96A900D2C4F5 /* CardView.swift */; };
+		7AE503B02BBC9B6E00D2C4F5 /* TariffReusableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503AF2BBC9B6E00D2C4F5 /* TariffReusableButton.swift */; };
+		7AE503B22BBC9BB300D2C4F5 /* SpeedIndicatorCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503B12BBC9BB300D2C4F5 /* SpeedIndicatorCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -191,6 +194,9 @@
 		7AE503A42BB9485300D2C4F5 /* TableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+Ext.swift"; sourceTree = "<group>"; };
 		7AE503A62BB9487100D2C4F5 /* TariffInfoBottomCheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffInfoBottomCheckoutView.swift; sourceTree = "<group>"; };
 		7AE503AB2BB9B40900D2C4F5 /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
+		7AE503AD2BBC96A900D2C4F5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		7AE503AF2BBC9B6E00D2C4F5 /* TariffReusableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffReusableButton.swift; sourceTree = "<group>"; };
+		7AE503B12BBC9BB300D2C4F5 /* SpeedIndicatorCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedIndicatorCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -516,6 +522,7 @@
 			isa = PBXGroup;
 			children = (
 				7AE5039C2BB9451000D2C4F5 /* AppPrimaryButton.swift */,
+				7AE503AF2BBC9B6E00D2C4F5 /* TariffReusableButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -540,6 +547,8 @@
 			isa = PBXGroup;
 			children = (
 				7AE503AB2BB9B40900D2C4F5 /* CustomNavBarView.swift */,
+				7AE503AD2BBC96A900D2C4F5 /* CardView.swift */,
+				7AE503B12BBC9BB300D2C4F5 /* SpeedIndicatorCardView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -626,6 +635,7 @@
 				7AE503152BB1C99600D2C4F5 /* DashboardViewController.swift in Sources */,
 				7AE502DD2BB1C41F00D2C4F5 /* ThemeableView.swift in Sources */,
 				7AE503382BB3ED2600D2C4F5 /* TariffsInteractor.swift in Sources */,
+				7AE503AE2BBC96AA00D2C4F5 /* CardView.swift in Sources */,
 				7AE503652BB53F9000D2C4F5 /* TariffInfoRouter.swift in Sources */,
 				7AE503122BB1C99600D2C4F5 /* DashboardWorker.swift in Sources */,
 				7AE5039A2BB944B400D2C4F5 /* TariffTableViewCell.swift in Sources */,
@@ -637,6 +647,7 @@
 				7AE502E12BB1C49600D2C4F5 /* ViewController+Navigation.swift in Sources */,
 				7AE503712BB545B000D2C4F5 /* TableViewInfoHeader.swift in Sources */,
 				7AE5036A2BB53F9000D2C4F5 /* TariffInfoConfigurator.swift in Sources */,
+				7AE503B22BBC9BB300D2C4F5 /* SpeedIndicatorCardView.swift in Sources */,
 				7AE503942BB941D100D2C4F5 /* TariffCellTopView.swift in Sources */,
 				7AE503682BB53F9000D2C4F5 /* TariffInfoInteractor.swift in Sources */,
 				7AE5033A2BB3ED2600D2C4F5 /* TariffsConfigurator.swift in Sources */,
@@ -658,6 +669,7 @@
 				7AE503262BB3EB8A00D2C4F5 /* SupportViewController.swift in Sources */,
 				7AE503112BB1C99600D2C4F5 /* DashboardPresenter.swift in Sources */,
 				7AE503252BB3EB8A00D2C4F5 /* SupportModels.swift in Sources */,
+				7AE503B02BBC9B6E00D2C4F5 /* TariffReusableButton.swift in Sources */,
 				7AE503AC2BB9B40900D2C4F5 /* CustomNavBarView.swift in Sources */,
 				7AE503662BB53F9000D2C4F5 /* TariffInfoModels.swift in Sources */,
 				7AE5039F2BB9459900D2C4F5 /* ExtraServiceViewCell.swift in Sources */,
