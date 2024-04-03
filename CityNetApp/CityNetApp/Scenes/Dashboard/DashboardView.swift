@@ -22,18 +22,24 @@ final class DashboardView: UIView, ThemeableView {
     }()
     
     
-    
     lazy var cardView: CardView = {
         let view = CardView()
         return view
     }()
     
     
-    lazy var speedIndicatorCardView: SpeedIndicatorCardView = {
-        let view = SpeedIndicatorCardView()
-        return view
+    lazy var tableView: UITableView = {
+        let tableView = UITableView()
+        tableView.backgroundColor = adaptiveColor(.whitePrimary)
+        tableView.layer.cornerRadius = 16
+        tableView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+        tableView.allowsSelection = false
+        tableView.separatorStyle = .none
+        tableView.register(SpeedCardsTableViewCell.self, forCellReuseIdentifier: SpeedCardsTableViewCell.reuseIdentifier)
+        tableView.register(StoriesTableViewCell.self, forCellReuseIdentifier: StoriesTableViewCell.reuseIdentifier)
+        return tableView
     }()
-  
+    
     
     // MARK: init
     init() {
@@ -55,15 +61,17 @@ final class DashboardView: UIView, ThemeableView {
             make.trailing.equalToSuperview().offset(-16)
             make.height.equalTo(56)
         }
+        
         self.cardView.snp.updateConstraints { make in
             make.top.equalTo(customNavBarView.snp.bottom).offset(24)
             make.leading.equalTo(customNavBarView).offset(28)
             make.trailing.equalTo(customNavBarView).offset(-28)
-           
+            make.height.equalTo(360)
         }
-        self.speedIndicatorCardView.snp.updateConstraints { make in
+        
+        self.tableView.snp.updateConstraints { make in
             make.top.equalTo(cardView.snp.bottom).offset(24)
-            make.leading.trailing.equalToSuperview().inset(28)
+            make.leading.trailing.bottom.equalToSuperview()
         }
         
         super.updateConstraints()
@@ -75,8 +83,8 @@ final class DashboardView: UIView, ThemeableView {
     private func addSubviews() {
         self.addSubview(self.customNavBarView)
         self.addSubview(self.cardView)
-        self.addSubview(self.speedIndicatorCardView)
-       
+        self.addSubview(self.tableView)
+        
         //self.updateConstraints()
     }
     

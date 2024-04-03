@@ -100,6 +100,9 @@
 		7AE503AE2BBC96AA00D2C4F5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503AD2BBC96A900D2C4F5 /* CardView.swift */; };
 		7AE503B02BBC9B6E00D2C4F5 /* TariffReusableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503AF2BBC9B6E00D2C4F5 /* TariffReusableButton.swift */; };
 		7AE503B22BBC9BB300D2C4F5 /* SpeedIndicatorCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503B12BBC9BB300D2C4F5 /* SpeedIndicatorCardView.swift */; };
+		7AE503B42BBD349800D2C4F5 /* SpeedCardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503B32BBD349800D2C4F5 /* SpeedCardsTableViewCell.swift */; };
+		7AE503B62BBD3AA600D2C4F5 /* StoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503B52BBD3AA600D2C4F5 /* StoriesTableViewCell.swift */; };
+		7AE503B82BBD3B7400D2C4F5 /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503B72BBD3B7400D2C4F5 /* StoryCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -197,6 +200,9 @@
 		7AE503AD2BBC96A900D2C4F5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		7AE503AF2BBC9B6E00D2C4F5 /* TariffReusableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffReusableButton.swift; sourceTree = "<group>"; };
 		7AE503B12BBC9BB300D2C4F5 /* SpeedIndicatorCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedIndicatorCardView.swift; sourceTree = "<group>"; };
+		7AE503B32BBD349800D2C4F5 /* SpeedCardsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedCardsTableViewCell.swift; sourceTree = "<group>"; };
+		7AE503B52BBD3AA600D2C4F5 /* StoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesTableViewCell.swift; sourceTree = "<group>"; };
+		7AE503B72BBD3B7400D2C4F5 /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -539,6 +545,9 @@
 		7AE503A92BB9B1E500D2C4F5 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				7AE503B32BBD349800D2C4F5 /* SpeedCardsTableViewCell.swift */,
+				7AE503B52BBD3AA600D2C4F5 /* StoriesTableViewCell.swift */,
+				7AE503B72BBD3B7400D2C4F5 /* StoryCollectionViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -635,6 +644,7 @@
 				7AE503152BB1C99600D2C4F5 /* DashboardViewController.swift in Sources */,
 				7AE502DD2BB1C41F00D2C4F5 /* ThemeableView.swift in Sources */,
 				7AE503382BB3ED2600D2C4F5 /* TariffsInteractor.swift in Sources */,
+				7AE503B42BBD349800D2C4F5 /* SpeedCardsTableViewCell.swift in Sources */,
 				7AE503AE2BBC96AA00D2C4F5 /* CardView.swift in Sources */,
 				7AE503652BB53F9000D2C4F5 /* TariffInfoRouter.swift in Sources */,
 				7AE503122BB1C99600D2C4F5 /* DashboardWorker.swift in Sources */,
@@ -675,6 +685,8 @@
 				7AE5039F2BB9459900D2C4F5 /* ExtraServiceViewCell.swift in Sources */,
 				7AE503A32BB9478200D2C4F5 /* ExtraServicesSectionHeaderView.swift in Sources */,
 				7AE503902BB93F3300D2C4F5 /* DeleteServiceButton.swift in Sources */,
+				7AE503B82BBD3B7400D2C4F5 /* StoryCollectionViewCell.swift in Sources */,
+				7AE503B62BBD3AA600D2C4F5 /* StoriesTableViewCell.swift in Sources */,
 				7AE503282BB3EB8A00D2C4F5 /* SupportView.swift in Sources */,
 				7AE5037D2BB6144100D2C4F5 /* AdditionalServicesHeaderView.swift in Sources */,
 				7AE503692BB53F9000D2C4F5 /* TariffInfoView.swift in Sources */,

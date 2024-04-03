@@ -23,3 +23,10 @@ enum Dashboard {
         }
     }
 }
+
+//MARK: Sections for table view
+internal enum Sections: CaseIterable {
+    case stories
+    case tariffSpeedCards
+    case allOperations
+}

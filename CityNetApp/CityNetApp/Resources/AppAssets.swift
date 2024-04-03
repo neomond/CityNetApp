@@ -27,6 +27,8 @@ public enum AppAssets: String, CaseIterable {
     case speedImage50
     case speedImage100
     
+    case storyImg
+    
     case speedIcon
     case wifiIcon
     case fiberOptikIcon
