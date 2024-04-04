@@ -23,11 +23,21 @@ public enum AppAssets: String, CaseIterable {
     case backIcon
     case minusIcon
    
+    case guestSet
+    case cartSet
+    case moneySet
+    
+    case bgMain
+    case purseImage
+    case settingsIcon
+    
     case speedImage40
     case speedImage50
     case speedImage100
     
     case storyImg
+    case addFile
+    case homeWifi
     
     case speedIcon
     case wifiIcon

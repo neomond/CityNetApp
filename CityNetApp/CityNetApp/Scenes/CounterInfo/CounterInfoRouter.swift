@@ -1,25 +1,25 @@
 //
-//  DashboardRouter.swift
+//  CounterInfoRouter.swift
 //  CityNetApp
 //
-//  Created by Nazrin Atayeva on 25.03.24.
+//  Created by Nazrin Atayeva on 04.04.24.
 //
 
 import UIKit
 
-protocol DashboardRoutingLogic {
+@objc protocol CounterInfoRoutingLogic {
     
     //func routeToSomewhere()
 }
 
-protocol DashboardDataPassing {
-    var dataStore: DashboardDataStore? { get }
+protocol CounterInfoDataPassing {
+    var dataStore: CounterInfoDataStore? { get }
 }
 
-final class DashboardRouter: NSObject, DashboardRoutingLogic, DashboardDataPassing {
+final class CounterInfoRouter: NSObject, CounterInfoRoutingLogic, CounterInfoDataPassing {
     
-    weak var viewController: DashboardViewController?
-    var dataStore: DashboardDataStore?
+    weak var viewController: CounterInfoViewController?
+    var dataStore: CounterInfoDataStore?
   
     
     // MARK: Routing
@@ -37,14 +37,14 @@ final class DashboardRouter: NSObject, DashboardRoutingLogic, DashboardDataPassi
     
     // MARK: Navigation
 
-//    func navigateToSomewhere(source: DashboardViewController, destination: SomewhereViewController) {
+//    func navigateToSomewhere(source: CounterInfoViewController, destination: SomewhereViewController) {
 //        source.show(destination, sender: nil)
 //    }
 
     
     // MARK: Passing data
 
-//    func passDataToSomewhere(source: DashboardDataStore, destination: inout SomewhereDataStore) {
+//    func passDataToSomewhere(source: CounterInfoDataStore, destination: inout SomewhereDataStore) {
 //        destination.name = source.name
 //    }
 }

@@ -99,10 +99,24 @@
 		7AE503AC2BB9B40900D2C4F5 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503AB2BB9B40900D2C4F5 /* CustomNavBarView.swift */; };
 		7AE503AE2BBC96AA00D2C4F5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503AD2BBC96A900D2C4F5 /* CardView.swift */; };
 		7AE503B02BBC9B6E00D2C4F5 /* TariffReusableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503AF2BBC9B6E00D2C4F5 /* TariffReusableButton.swift */; };
-		7AE503B22BBC9BB300D2C4F5 /* SpeedIndicatorCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503B12BBC9BB300D2C4F5 /* SpeedIndicatorCardView.swift */; };
 		7AE503B42BBD349800D2C4F5 /* SpeedCardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503B32BBD349800D2C4F5 /* SpeedCardsTableViewCell.swift */; };
 		7AE503B62BBD3AA600D2C4F5 /* StoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503B52BBD3AA600D2C4F5 /* StoriesTableViewCell.swift */; };
 		7AE503B82BBD3B7400D2C4F5 /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503B72BBD3B7400D2C4F5 /* StoryCollectionViewCell.swift */; };
+		7AE503BA2BBD4F0900D2C4F5 /* NoOperationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503B92BBD4F0900D2C4F5 /* NoOperationsTableViewCell.swift */; };
+		7AE503BC2BBD506700D2C4F5 /* AllOperationsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503BB2BBD506700D2C4F5 /* AllOperationsHeaderView.swift */; };
+		7AE503BF2BBD549200D2C4F5 /* OperationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503BE2BBD549200D2C4F5 /* OperationsTableViewCell.swift */; };
+		7AE503C92BBE800700D2C4F5 /* CounterInfoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503C12BBE800700D2C4F5 /* CounterInfoPresenter.swift */; };
+		7AE503CA2BBE800700D2C4F5 /* CounterInfoWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503C22BBE800700D2C4F5 /* CounterInfoWorker.swift */; };
+		7AE503CB2BBE800700D2C4F5 /* CounterInfoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503C32BBE800700D2C4F5 /* CounterInfoRouter.swift */; };
+		7AE503CC2BBE800700D2C4F5 /* CounterInfoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503C42BBE800700D2C4F5 /* CounterInfoModels.swift */; };
+		7AE503CD2BBE800700D2C4F5 /* CounterInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503C52BBE800700D2C4F5 /* CounterInfoViewController.swift */; };
+		7AE503CE2BBE800700D2C4F5 /* CounterInfoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503C62BBE800700D2C4F5 /* CounterInfoInteractor.swift */; };
+		7AE503CF2BBE800700D2C4F5 /* CounterInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503C72BBE800700D2C4F5 /* CounterInfoView.swift */; };
+		7AE503D02BBE800700D2C4F5 /* CounterInfoConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503C82BBE800700D2C4F5 /* CounterInfoConfigurator.swift */; };
+		7AE503D52BBE835F00D2C4F5 /* CounterInfoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503D42BBE835F00D2C4F5 /* CounterInfoDetailsView.swift */; };
+		7AE503D72BBEA5BD00D2C4F5 /* CustomBackBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503D62BBEA5BD00D2C4F5 /* CustomBackBtnView.swift */; };
+		7AE503D92BBEBEDC00D2C4F5 /* PurseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503D82BBEBEDB00D2C4F5 /* PurseView.swift */; };
+		7AE503DB2BBEDAB400D2C4F5 /* SingleOfferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503DA2BBEDAB400D2C4F5 /* SingleOfferView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -199,10 +213,24 @@
 		7AE503AB2BB9B40900D2C4F5 /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
 		7AE503AD2BBC96A900D2C4F5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		7AE503AF2BBC9B6E00D2C4F5 /* TariffReusableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffReusableButton.swift; sourceTree = "<group>"; };
-		7AE503B12BBC9BB300D2C4F5 /* SpeedIndicatorCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedIndicatorCardView.swift; sourceTree = "<group>"; };
 		7AE503B32BBD349800D2C4F5 /* SpeedCardsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedCardsTableViewCell.swift; sourceTree = "<group>"; };
 		7AE503B52BBD3AA600D2C4F5 /* StoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesTableViewCell.swift; sourceTree = "<group>"; };
 		7AE503B72BBD3B7400D2C4F5 /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		7AE503B92BBD4F0900D2C4F5 /* NoOperationsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoOperationsTableViewCell.swift; sourceTree = "<group>"; };
+		7AE503BB2BBD506700D2C4F5 /* AllOperationsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllOperationsHeaderView.swift; sourceTree = "<group>"; };
+		7AE503BE2BBD549200D2C4F5 /* OperationsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsTableViewCell.swift; sourceTree = "<group>"; };
+		7AE503C12BBE800700D2C4F5 /* CounterInfoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterInfoPresenter.swift; sourceTree = "<group>"; };
+		7AE503C22BBE800700D2C4F5 /* CounterInfoWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterInfoWorker.swift; sourceTree = "<group>"; };
+		7AE503C32BBE800700D2C4F5 /* CounterInfoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterInfoRouter.swift; sourceTree = "<group>"; };
+		7AE503C42BBE800700D2C4F5 /* CounterInfoModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterInfoModels.swift; sourceTree = "<group>"; };
+		7AE503C52BBE800700D2C4F5 /* CounterInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterInfoViewController.swift; sourceTree = "<group>"; };
+		7AE503C62BBE800700D2C4F5 /* CounterInfoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterInfoInteractor.swift; sourceTree = "<group>"; };
+		7AE503C72BBE800700D2C4F5 /* CounterInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterInfoView.swift; sourceTree = "<group>"; };
+		7AE503C82BBE800700D2C4F5 /* CounterInfoConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterInfoConfigurator.swift; sourceTree = "<group>"; };
+		7AE503D42BBE835F00D2C4F5 /* CounterInfoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterInfoDetailsView.swift; sourceTree = "<group>"; };
+		7AE503D62BBEA5BD00D2C4F5 /* CustomBackBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackBtnView.swift; sourceTree = "<group>"; };
+		7AE503D82BBEBEDB00D2C4F5 /* PurseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurseView.swift; sourceTree = "<group>"; };
+		7AE503DA2BBEDAB400D2C4F5 /* SingleOfferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleOfferView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +310,7 @@
 		7AE502D52BB1C3D400D2C4F5 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				7AE503C02BBE7FE100D2C4F5 /* CounterInfo */,
 				7AE5035A2BB53F7B00D2C4F5 /* TariffInfo */,
 				7AE5033B2BB3ED9600D2C4F5 /* More */,
 				7AE5032A2BB3ED1700D2C4F5 /* Tariffs */,
@@ -548,6 +577,8 @@
 				7AE503B32BBD349800D2C4F5 /* SpeedCardsTableViewCell.swift */,
 				7AE503B52BBD3AA600D2C4F5 /* StoriesTableViewCell.swift */,
 				7AE503B72BBD3B7400D2C4F5 /* StoryCollectionViewCell.swift */,
+				7AE503B92BBD4F0900D2C4F5 /* NoOperationsTableViewCell.swift */,
+				7AE503BE2BBD549200D2C4F5 /* OperationsTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -557,9 +588,52 @@
 			children = (
 				7AE503AB2BB9B40900D2C4F5 /* CustomNavBarView.swift */,
 				7AE503AD2BBC96A900D2C4F5 /* CardView.swift */,
-				7AE503B12BBC9BB300D2C4F5 /* SpeedIndicatorCardView.swift */,
+				7AE503BB2BBD506700D2C4F5 /* AllOperationsHeaderView.swift */,
 			);
 			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		7AE503C02BBE7FE100D2C4F5 /* CounterInfo */ = {
+			isa = PBXGroup;
+			children = (
+				7AE503D12BBE832600D2C4F5 /* Views */,
+				7AE503C12BBE800700D2C4F5 /* CounterInfoPresenter.swift */,
+				7AE503C22BBE800700D2C4F5 /* CounterInfoWorker.swift */,
+				7AE503C32BBE800700D2C4F5 /* CounterInfoRouter.swift */,
+				7AE503C42BBE800700D2C4F5 /* CounterInfoModels.swift */,
+				7AE503C52BBE800700D2C4F5 /* CounterInfoViewController.swift */,
+				7AE503C62BBE800700D2C4F5 /* CounterInfoInteractor.swift */,
+				7AE503C72BBE800700D2C4F5 /* CounterInfoView.swift */,
+				7AE503C82BBE800700D2C4F5 /* CounterInfoConfigurator.swift */,
+			);
+			path = CounterInfo;
+			sourceTree = "<group>";
+		};
+		7AE503D12BBE832600D2C4F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7AE503D32BBE833300D2C4F5 /* Cells */,
+				7AE503D22BBE832C00D2C4F5 /* CustomViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7AE503D22BBE832C00D2C4F5 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				7AE503D62BBEA5BD00D2C4F5 /* CustomBackBtnView.swift */,
+				7AE503D42BBE835F00D2C4F5 /* CounterInfoDetailsView.swift */,
+				7AE503D82BBEBEDB00D2C4F5 /* PurseView.swift */,
+				7AE503DA2BBEDAB400D2C4F5 /* SingleOfferView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		7AE503D32BBE833300D2C4F5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -641,13 +715,19 @@
 				7AE503072BB1C7E400D2C4F5 /* TabBarView.swift in Sources */,
 				7AE503A72BB9487100D2C4F5 /* TariffInfoBottomCheckoutView.swift in Sources */,
 				7AE503332BB3ED2600D2C4F5 /* TariffsPresenter.swift in Sources */,
+				7AE503CF2BBE800700D2C4F5 /* CounterInfoView.swift in Sources */,
 				7AE503152BB1C99600D2C4F5 /* DashboardViewController.swift in Sources */,
+				7AE503CC2BBE800700D2C4F5 /* CounterInfoModels.swift in Sources */,
 				7AE502DD2BB1C41F00D2C4F5 /* ThemeableView.swift in Sources */,
 				7AE503382BB3ED2600D2C4F5 /* TariffsInteractor.swift in Sources */,
+				7AE503D52BBE835F00D2C4F5 /* CounterInfoDetailsView.swift in Sources */,
 				7AE503B42BBD349800D2C4F5 /* SpeedCardsTableViewCell.swift in Sources */,
+				7AE503C92BBE800700D2C4F5 /* CounterInfoPresenter.swift in Sources */,
+				7AE503CD2BBE800700D2C4F5 /* CounterInfoViewController.swift in Sources */,
 				7AE503AE2BBC96AA00D2C4F5 /* CardView.swift in Sources */,
 				7AE503652BB53F9000D2C4F5 /* TariffInfoRouter.swift in Sources */,
 				7AE503122BB1C99600D2C4F5 /* DashboardWorker.swift in Sources */,
+				7AE503BC2BBD506700D2C4F5 /* AllOperationsHeaderView.swift in Sources */,
 				7AE5039A2BB944B400D2C4F5 /* TariffTableViewCell.swift in Sources */,
 				7AE503A52BB9485300D2C4F5 /* TableView+Ext.swift in Sources */,
 				7AE503242BB3EB8A00D2C4F5 /* SupportRouter.swift in Sources */,
@@ -657,10 +737,10 @@
 				7AE502E12BB1C49600D2C4F5 /* ViewController+Navigation.swift in Sources */,
 				7AE503712BB545B000D2C4F5 /* TableViewInfoHeader.swift in Sources */,
 				7AE5036A2BB53F9000D2C4F5 /* TariffInfoConfigurator.swift in Sources */,
-				7AE503B22BBC9BB300D2C4F5 /* SpeedIndicatorCardView.swift in Sources */,
 				7AE503942BB941D100D2C4F5 /* TariffCellTopView.swift in Sources */,
 				7AE503682BB53F9000D2C4F5 /* TariffInfoInteractor.swift in Sources */,
 				7AE5033A2BB3ED2600D2C4F5 /* TariffsConfigurator.swift in Sources */,
+				7AE503D92BBEBEDC00D2C4F5 /* PurseView.swift in Sources */,
 				7AE503082BB1C7E400D2C4F5 /* TabBarConfigurator.swift in Sources */,
 				7AE503452BB3EDA500D2C4F5 /* MoreWorker.swift in Sources */,
 				7AE503172BB1C99600D2C4F5 /* DashboardView.swift in Sources */,
@@ -668,6 +748,7 @@
 				7AE503232BB3EB8A00D2C4F5 /* SupportWorker.swift in Sources */,
 				7AE503732BB546DD00D2C4F5 /* TariffInfoCell.swift in Sources */,
 				7AE502E62BB1C4F000D2C4F5 /* Cell+Configurer.swift in Sources */,
+				7AE503CB2BBE800700D2C4F5 /* CounterInfoRouter.swift in Sources */,
 				7AE503592BB499B300D2C4F5 /* TableViewHeader.swift in Sources */,
 				7AE503882BB93C6500D2C4F5 /* TitleTableViewCell.swift in Sources */,
 				7AE503642BB53F9000D2C4F5 /* TariffInfoWorker.swift in Sources */,
@@ -675,6 +756,7 @@
 				7AE503792BB59A1700D2C4F5 /* TariffInfoToastView.swift in Sources */,
 				7AE503442BB3EDA500D2C4F5 /* MorePresenter.swift in Sources */,
 				7AE503012BB1C7E400D2C4F5 /* TabBarPresenter.swift in Sources */,
+				7AE503CA2BBE800700D2C4F5 /* CounterInfoWorker.swift in Sources */,
 				7AE503032BB1C7E400D2C4F5 /* TabBarRouter.swift in Sources */,
 				7AE503262BB3EB8A00D2C4F5 /* SupportViewController.swift in Sources */,
 				7AE503112BB1C99600D2C4F5 /* DashboardPresenter.swift in Sources */,
@@ -690,6 +772,7 @@
 				7AE503282BB3EB8A00D2C4F5 /* SupportView.swift in Sources */,
 				7AE5037D2BB6144100D2C4F5 /* AdditionalServicesHeaderView.swift in Sources */,
 				7AE503692BB53F9000D2C4F5 /* TariffInfoView.swift in Sources */,
+				7AE503BF2BBD549200D2C4F5 /* OperationsTableViewCell.swift in Sources */,
 				7AE5038A2BB93D7900D2C4F5 /* TariffInfoCardView.swift in Sources */,
 				7AE503132BB1C99600D2C4F5 /* DashboardRouter.swift in Sources */,
 				7AE503392BB3ED2600D2C4F5 /* TariffsView.swift in Sources */,
@@ -701,6 +784,7 @@
 				7AE503962BB9423F00D2C4F5 /* TariffContentSingleTile.swift in Sources */,
 				7AE503862BB93B3500D2C4F5 /* ServiceOptionType.swift in Sources */,
 				7AE502DF2BB1C46A00D2C4F5 /* MainNavigation.swift in Sources */,
+				7AE503D02BBE800700D2C4F5 /* CounterInfoConfigurator.swift in Sources */,
 				7AE5034F2BB3F40B00D2C4F5 /* TariffsCell.swift in Sources */,
 				7AE503492BB3EDA500D2C4F5 /* MoreInteractor.swift in Sources */,
 				7AE5034B2BB3EDA500D2C4F5 /* MoreConfigurator.swift in Sources */,
@@ -712,10 +796,13 @@
 				7AE503062BB1C7E400D2C4F5 /* TabBarInteractor.swift in Sources */,
 				7AE503142BB1C99600D2C4F5 /* DashboardModels.swift in Sources */,
 				7AE503482BB3EDA500D2C4F5 /* MoreViewController.swift in Sources */,
+				7AE503BA2BBD4F0900D2C4F5 /* NoOperationsTableViewCell.swift in Sources */,
 				7AE503A12BB946A100D2C4F5 /* AppDivider.swift in Sources */,
+				7AE503D72BBEA5BD00D2C4F5 /* CustomBackBtnView.swift in Sources */,
 				7AE502CE2BB1C1A500D2C4F5 /* AppContainer.swift in Sources */,
 				7AE502912BB1C0E100D2C4F5 /* AppDelegate.swift in Sources */,
 				7AE502DB2BB1C41600D2C4F5 /* ThemeableViewController.swift in Sources */,
+				7AE503DB2BBEDAB400D2C4F5 /* SingleOfferView.swift in Sources */,
 				7AE503982BB9448600D2C4F5 /* ToastTableViewCell.swift in Sources */,
 				7AE503042BB1C7E400D2C4F5 /* TabBarModels.swift in Sources */,
 				7AE503342BB3ED2600D2C4F5 /* TariffsWorker.swift in Sources */,
@@ -723,6 +810,7 @@
 				7AE503512BB3F69300D2C4F5 /* TariffsTableView.swift in Sources */,
 				7AE5039D2BB9451000D2C4F5 /* AppPrimaryButton.swift in Sources */,
 				7AE5038E2BB93E5F00D2C4F5 /* ExtraServiceSingleView.swift in Sources */,
+				7AE503CE2BBE800700D2C4F5 /* CounterInfoInteractor.swift in Sources */,
 				7AE503052BB1C7E400D2C4F5 /* TabBarViewController.swift in Sources */,
 				7AE503672BB53F9000D2C4F5 /* TariffInfoViewController.swift in Sources */,
 				7AE503362BB3ED2600D2C4F5 /* TariffsModels.swift in Sources */,

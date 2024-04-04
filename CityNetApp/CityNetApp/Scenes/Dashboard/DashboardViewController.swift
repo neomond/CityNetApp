@@ -17,9 +17,19 @@ final class DashboardViewController: UIViewController {
     var mainView: DashboardView?
     var interactor: DashboardBusinessLogic?
     var router: (DashboardRoutingLogic & DashboardDataPassing)?
+   
     
-    var initialTableViewTopConstraint: CGFloat = 368
-    var maxScrollOffset: CGFloat = 100
+    var transactions: [TransactionModel] = [
+                .init(title: "Bakı, Aşıq Alı 40", amount: 17.99, date: "23 May 2023", type: .monthlyPayment),
+                .init(title: "Bakı, Aşıq Alı 40", amount: 37.99, date: "20 May 2023", type: .topUp),
+                .init(title: "Bakı, Aşıq Alı 40", amount: 10.99, date: "21 May 2023", type: .monthlyPayment),
+                .init(title: "Bakı, Aşıq Alı 40", amount: 17.99, date: "23 May 2023", type: .topUp),
+                .init(title: "Bakı, Aşıq Alı 40", amount: 17.99, date: "23 May 2023", type: .monthlyPayment),
+                .init(title: "Bakı, Aşıq Alı 45", amount: 17.99, date: "23 May 2023", type: .topUp),
+                .init(title: "Bakı, Aşıq Alı 40", amount: 17.99, date: "23 May 2023", type: .monthlyPayment),
+                .init(title: "Bakı, Aşıq Alı 40", amount: 17.99, date: "23 May 2023", type: .topUp),
+    ]
+    
     
     // MARK: - Lifecycle Methods
     
@@ -76,16 +86,11 @@ extension DashboardViewController: UITableViewDelegate, UITableViewDataSource {
         case .stories, .tariffSpeedCards:
             1
         case .allOperations:
-            1
-            //            self.transactions.isEmpty ? 1 : self.transactions.count
+            self.transactions.isEmpty ? 1 : self.transactions.count
         }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        //            guard let cell = tableView.dequeueReusableCell(withIdentifier: StoriesTableViewCell.reuseIdentifier, for: indexPath) as? StoriesTableViewCell else {
-        //                return UITableViewCell()
-        //            }
-        //            return cell
         
         switch Sections.allCases[indexPath.section] {
             
@@ -98,40 +103,40 @@ extension DashboardViewController: UITableViewDelegate, UITableViewDataSource {
             return cell
             
         case .allOperations:
-            return UITableViewCell()
-            //            if self.transactions.isEmpty {
-            //
-            //                let cell = tableView.dequeueReusableCell(withIdentifier: NoTransactionTableViewCell.reuseIdentifier, for: indexPath) as! NoTransactionTableViewCell
-            //
-            //                return cell
-            //            }
-            //            else {
-            //                let cell = tableView.dequeueReusableCell(withIdentifier: TransactionTableViewCell.reuseIdentifier, for: indexPath) as! TransactionTableViewCell
-            //
-            //                cell.model = self.transactions[indexPath.row]
-            //                return cell
-            //
-            //            }
-        }
-    }
-        
-        func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-            switch Sections.allCases[indexPath.section] {
-            case .stories:
-                152.0 + 32.0
-            default:
-                UITableView.automaticDimension
+            
+            if self.transactions.isEmpty {
+                
+                let cell = tableView.dequeueReusableCell(withIdentifier: NoOperationsTableViewCell.reuseIdentifier, for: indexPath) as! NoOperationsTableViewCell
+                
+                return cell
+            }
+            else {
+                let cell = tableView.dequeueReusableCell(withIdentifier: OperationsTableViewCell.reuseIdentifier, for: indexPath) as! OperationsTableViewCell
+                
+                cell.model = self.transactions[indexPath.row]
+                return cell
+      
             }
         }
-        
-//        func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-//            switch Sections.allCases[section] {
-//            case .allOperations:
-//                AllTransactionsHeaderView()
-//            default:
-//                nil
-//            }
-//        }
-        
     }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        switch Sections.allCases[indexPath.section] {
+        case .stories:
+            155
+        default:
+            UITableView.automaticDimension
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        switch Sections.allCases[section] {
+        case .allOperations:
+            AllOperationsHeaderView()
+        default:
+            nil
+        }
+    }
+    
+}
 

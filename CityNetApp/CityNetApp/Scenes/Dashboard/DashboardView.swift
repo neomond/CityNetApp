@@ -29,14 +29,19 @@ final class DashboardView: UIView, ThemeableView {
     
     
     lazy var tableView: UITableView = {
-        let tableView = UITableView()
+        let tableView = UITableView(frame: .zero, style: .plain)
         tableView.backgroundColor = adaptiveColor(.whitePrimary)
         tableView.layer.cornerRadius = 16
         tableView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
         tableView.allowsSelection = false
+        tableView.rowHeight = UITableView.automaticDimension
+       
         tableView.separatorStyle = .none
-        tableView.register(SpeedCardsTableViewCell.self, forCellReuseIdentifier: SpeedCardsTableViewCell.reuseIdentifier)
+        
         tableView.register(StoriesTableViewCell.self, forCellReuseIdentifier: StoriesTableViewCell.reuseIdentifier)
+        tableView.register(SpeedCardsTableViewCell.self, forCellReuseIdentifier: SpeedCardsTableViewCell.reuseIdentifier)
+        tableView.register(NoOperationsTableViewCell.self, forCellReuseIdentifier: NoOperationsTableViewCell.reuseIdentifier)
+        tableView.register(OperationsTableViewCell.self, forCellReuseIdentifier: OperationsTableViewCell.reuseIdentifier)
         return tableView
     }()
     
@@ -70,7 +75,7 @@ final class DashboardView: UIView, ThemeableView {
         }
         
         self.tableView.snp.updateConstraints { make in
-            make.top.equalTo(cardView.snp.bottom).offset(24)
+            make.top.equalTo(customNavBarView.snp.bottom)
             make.leading.trailing.bottom.equalToSuperview()
         }
         

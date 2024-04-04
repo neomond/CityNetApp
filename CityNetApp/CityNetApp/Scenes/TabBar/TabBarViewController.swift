@@ -53,15 +53,15 @@ final class TabBarViewController: UITabBarController, ThemeableViewController {
         tariffsView.tabBarItem.image = UIImage(named: AppAssets.tagsIcon.rawValue)
         
         // More
-        let moreVC = MoreViewController()
-        let moreView = MainNavigation(rootViewController: MoreConfigurator.configure(moreVC))
-        moreView.tabBarItem = UITabBarItem()
-        moreView.tabBarItem.title = "Daha çox"
-        moreView.tabBarItem.image = UIImage(named: AppAssets.moreIcon.rawValue)
+        let counterInfoVC = CounterInfoViewController()
+        let counterInfoView = MainNavigation(rootViewController: CounterInfoConfigurator.configure(counterInfoVC))
+        counterInfoView.tabBarItem = UITabBarItem()
+        counterInfoView.tabBarItem.title = "Daha çox"
+        counterInfoView.tabBarItem.image = UIImage(named: AppAssets.moreIcon.rawValue)
         
         
         
-        let controllers = [dashboardView, supportView, tariffsView, moreView]
+        let controllers = [dashboardView, supportView, tariffsView, counterInfoView]
         self.viewControllers = controllers
     }
     
