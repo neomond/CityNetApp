@@ -336,6 +336,7 @@
 		7A4B2E222BC408F300E889F9 /* AnimationCoins */ = {
 			isa = PBXGroup;
 			children = (
+				7A4B2E252BC41BC200E889F9 /* CoinView.swift */,
 				7A4B2E232BC4090500E889F9 /* AnimatingCoinsView.swift */,
 			);
 			path = AnimationCoins;
@@ -821,7 +822,6 @@
 				7AE5042B2BC2A2BF00D2C4F5 /* ProfitWalletView.swift */,
 				7AE5042D2BC2A2EC00D2C4F5 /* ProfitWalletContentView.swift */,
 				7AE5042F2BC2A4FE00D2C4F5 /* BottomSeeMoreView.swift */,
-				7A4B2E252BC41BC200E889F9 /* CoinView.swift */,
 			);
 			path = CounterWallet;
 			sourceTree = "<group>";

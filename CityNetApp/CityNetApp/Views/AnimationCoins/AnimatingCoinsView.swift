@@ -23,8 +23,6 @@ class AnimatingCoinsView: UIView {
     lazy var thirdPosition = secondPosition + 256/2 - 40
     
     func resetCoinPositions() {
-        
-        
         self.coin1.frame = .init(x: firstPosition, y: -40, width: 40, height: 40)
         self.coin2.frame = .init(x: secondPosition, y: -40, width: 40, height: 40)
         self.coin3.frame = .init(x: thirdPosition, y: -40, width: 40, height: 40)

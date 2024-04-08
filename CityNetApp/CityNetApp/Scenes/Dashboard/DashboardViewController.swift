@@ -147,7 +147,7 @@ extension DashboardViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         switch Sections.allCases[indexPath.section] {
         case .stories:
-            155
+            152
         default:
             UITableView.automaticDimension
         }

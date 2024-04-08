@@ -66,7 +66,6 @@ class AddressCardView: UIView {
         let btn = AppLighterButton()
         btn.setTitle("Ünvan detallarına bax", for: .normal)
         btn.setImage(AppAssets.arrow_forward.load(), for: .normal)
-//        btn.hero.id = "see more button"
         btn.isUserInteractionEnabled = false
         return btn
     }()
