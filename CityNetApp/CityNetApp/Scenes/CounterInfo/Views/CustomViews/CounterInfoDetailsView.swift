@@ -8,9 +8,9 @@
 import UIKit
 import CityNetUIkit
 
-class CounterInfoDetailsView: UIView, ThemeableView {
+class CounterInfoDetailsView: UIView {
     
-    var theme: ThemeProvider = App.theme
+    
     
     let mockData: [CounterInfoRow] = [
         CounterInfoRow(image: AppAssets.cartSet.load()!, title: "Hər gün 0.30 bonus topla", subtitle: "Qeyd etdiyin əraziyə gələnə qədər hər gün 0.30 bonus topla. *1 bonus = 1 AZN"),

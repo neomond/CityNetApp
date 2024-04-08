@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A4B2E242BC4090500E889F9 /* AnimatingCoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B2E232BC4090500E889F9 /* AnimatingCoinsView.swift */; };
+		7A4B2E262BC41BC200E889F9 /* CoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B2E252BC41BC200E889F9 /* CoinView.swift */; };
 		7AE502912BB1C0E100D2C4F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE502902BB1C0E100D2C4F5 /* AppDelegate.swift */; };
 		7AE5029A2BB1C0E200D2C4F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE502992BB1C0E200D2C4F5 /* Assets.xcassets */; };
 		7AE5029D2BB1C0E200D2C4F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE5029B2BB1C0E200D2C4F5 /* LaunchScreen.storyboard */; };
@@ -17,7 +19,7 @@
 		7AE502DD2BB1C41F00D2C4F5 /* ThemeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE502DC2BB1C41F00D2C4F5 /* ThemeableView.swift */; };
 		7AE502DF2BB1C46A00D2C4F5 /* MainNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE502DE2BB1C46A00D2C4F5 /* MainNavigation.swift */; };
 		7AE502E12BB1C49600D2C4F5 /* ViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE502E02BB1C49600D2C4F5 /* ViewController+Navigation.swift */; };
-		7AE502E42BB1C4DB00D2C4F5 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE502E32BB1C4DB00D2C4F5 /* Extension.swift */; };
+		7AE502E42BB1C4DB00D2C4F5 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE502E32BB1C4DB00D2C4F5 /* View+Extension.swift */; };
 		7AE502E62BB1C4F000D2C4F5 /* Cell+Configurer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE502E52BB1C4F000D2C4F5 /* Cell+Configurer.swift */; };
 		7AE502F42BB1C74E00D2C4F5 /* CityNetNetworkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE502F32BB1C74E00D2C4F5 /* CityNetNetworkKit.framework */; };
 		7AE502F62BB1C74E00D2C4F5 /* CityNetUIkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE502F52BB1C74E00D2C4F5 /* CityNetUIkit.framework */; };
@@ -117,9 +119,52 @@
 		7AE503D72BBEA5BD00D2C4F5 /* CustomBackBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503D62BBEA5BD00D2C4F5 /* CustomBackBtnView.swift */; };
 		7AE503D92BBEBEDC00D2C4F5 /* PurseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503D82BBEBEDB00D2C4F5 /* PurseView.swift */; };
 		7AE503DB2BBEDAB400D2C4F5 /* SingleOfferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503DA2BBEDAB400D2C4F5 /* SingleOfferView.swift */; };
+		7AE503E02BC0932200D2C4F5 /* AddressesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503DF2BC0932200D2C4F5 /* AddressesView.swift */; };
+		7AE503E22BC0933C00D2C4F5 /* AdressCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503E12BC0933C00D2C4F5 /* AdressCollectionViewCell.swift */; };
+		7AE503E52BC0939000D2C4F5 /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503E42BC0939000D2C4F5 /* AddressModel.swift */; };
+		7AE503E82BC0983F00D2C4F5 /* AddressCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503E72BC0983F00D2C4F5 /* AddressCardView.swift */; };
+		7AE503EA2BC09ABB00D2C4F5 /* AddressStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503E92BC09ABB00D2C4F5 /* AddressStatusView.swift */; };
+		7AE503EC2BC09B6100D2C4F5 /* AddressInfoTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503EB2BC09B6100D2C4F5 /* AddressInfoTile.swift */; };
+		7AE503EE2BC09C4B00D2C4F5 /* CopyCodeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503ED2BC09C4B00D2C4F5 /* CopyCodeButton.swift */; };
+		7AE503F02BC09D0600D2C4F5 /* AppLighterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503EF2BC09D0600D2C4F5 /* AppLighterButton.swift */; };
+		7AE503F22BC09DD200D2C4F5 /* DashedLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503F12BC09DD200D2C4F5 /* DashedLine.swift */; };
+		7AE503F42BC09E9700D2C4F5 /* ViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503F32BC09E9700D2C4F5 /* ViewController+Ext.swift */; };
+		7AE503F62BC09EDD00D2C4F5 /* Double+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503F52BC09EDD00D2C4F5 /* Double+Ext.swift */; };
+		7AE503F82BC09F7F00D2C4F5 /* AddressProfitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503F72BC09F7F00D2C4F5 /* AddressProfitCardView.swift */; };
+		7AE503FB2BC11E8A00D2C4F5 /* Hero in Frameworks */ = {isa = PBXBuildFile; productRef = 7AE503FA2BC11E8A00D2C4F5 /* Hero */; };
+		7AE504052BC11F6B00D2C4F5 /* AddressDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503FD2BC11F6B00D2C4F5 /* AddressDetailPresenter.swift */; };
+		7AE504062BC11F6B00D2C4F5 /* AddressDetailWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503FE2BC11F6B00D2C4F5 /* AddressDetailWorker.swift */; };
+		7AE504072BC11F6B00D2C4F5 /* AddressDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE503FF2BC11F6B00D2C4F5 /* AddressDetailRouter.swift */; };
+		7AE504082BC11F6B00D2C4F5 /* AddressDetailModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE504002BC11F6B00D2C4F5 /* AddressDetailModels.swift */; };
+		7AE504092BC11F6B00D2C4F5 /* AddressDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE504012BC11F6B00D2C4F5 /* AddressDetailViewController.swift */; };
+		7AE5040A2BC11F6B00D2C4F5 /* AddressDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE504022BC11F6B00D2C4F5 /* AddressDetailInteractor.swift */; };
+		7AE5040B2BC11F6B00D2C4F5 /* AddressDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE504032BC11F6B00D2C4F5 /* AddressDetailView.swift */; };
+		7AE5040C2BC11F6B00D2C4F5 /* AddressDetailConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE504042BC11F6B00D2C4F5 /* AddressDetailConfigurator.swift */; };
+		7AE504102BC1206C00D2C4F5 /* AddressDetailAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5040F2BC1206C00D2C4F5 /* AddressDetailAction.swift */; };
+		7AE504122BC127DC00D2C4F5 /* AddressDetailActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE504112BC127DC00D2C4F5 /* AddressDetailActionsView.swift */; };
+		7AE504142BC1282B00D2C4F5 /* SingleAddressActionTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE504132BC1282B00D2C4F5 /* SingleAddressActionTile.swift */; };
+		7AE504162BC1294600D2C4F5 /* AddressDetailBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE504152BC1294600D2C4F5 /* AddressDetailBottomView.swift */; };
+		7AE504182BC1298500D2C4F5 /* ArrowDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE504172BC1298500D2C4F5 /* ArrowDownButton.swift */; };
+		7AE504222BC131E200D2C4F5 /* ProfitAddressDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5041A2BC131E200D2C4F5 /* ProfitAddressDetailPresenter.swift */; };
+		7AE504232BC131E200D2C4F5 /* ProfitAddressDetailWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5041B2BC131E200D2C4F5 /* ProfitAddressDetailWorker.swift */; };
+		7AE504242BC131E200D2C4F5 /* ProfitAddressDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5041C2BC131E200D2C4F5 /* ProfitAddressDetailRouter.swift */; };
+		7AE504252BC131E200D2C4F5 /* ProfitAddressDetailModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5041D2BC131E200D2C4F5 /* ProfitAddressDetailModels.swift */; };
+		7AE504262BC131E200D2C4F5 /* ProfitAddressDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5041E2BC131E200D2C4F5 /* ProfitAddressDetailViewController.swift */; };
+		7AE504272BC131E200D2C4F5 /* ProfitAddressDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5041F2BC131E200D2C4F5 /* ProfitAddressDetailInteractor.swift */; };
+		7AE504282BC131E200D2C4F5 /* ProfitAddressDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE504202BC131E200D2C4F5 /* ProfitAddressDetailView.swift */; };
+		7AE504292BC131E200D2C4F5 /* ProfitAddressDetailConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE504212BC131E200D2C4F5 /* ProfitAddressDetailConfigurator.swift */; };
+		7AE5042C2BC2A2BF00D2C4F5 /* ProfitWalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5042B2BC2A2BF00D2C4F5 /* ProfitWalletView.swift */; };
+		7AE5042E2BC2A2EC00D2C4F5 /* ProfitWalletContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5042D2BC2A2EC00D2C4F5 /* ProfitWalletContentView.swift */; };
+		7AE504302BC2A4FE00D2C4F5 /* BottomSeeMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5042F2BC2A4FE00D2C4F5 /* BottomSeeMoreView.swift */; };
+		7AE504332BC2B0FE00D2C4F5 /* ProfitOfferType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE504322BC2B0FE00D2C4F5 /* ProfitOfferType.swift */; };
+		7AE504362BC2B12200D2C4F5 /* ProfitAddressDetailNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE504352BC2B12200D2C4F5 /* ProfitAddressDetailNavBar.swift */; };
+		7AE504382BC2B19500D2C4F5 /* ProfitOffersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE504372BC2B19500D2C4F5 /* ProfitOffersView.swift */; };
+		7AE5043A2BC2B1F300D2C4F5 /* SingleProfitOfferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE504392BC2B1F300D2C4F5 /* SingleProfitOfferView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A4B2E232BC4090500E889F9 /* AnimatingCoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingCoinsView.swift; sourceTree = "<group>"; };
+		7A4B2E252BC41BC200E889F9 /* CoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinView.swift; sourceTree = "<group>"; };
 		7AE5028D2BB1C0E100D2C4F5 /* CityNetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityNetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE502902BB1C0E100D2C4F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AE502992BB1C0E200D2C4F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -132,7 +177,7 @@
 		7AE502DC2BB1C41F00D2C4F5 /* ThemeableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeableView.swift; sourceTree = "<group>"; };
 		7AE502DE2BB1C46A00D2C4F5 /* MainNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigation.swift; sourceTree = "<group>"; };
 		7AE502E02BB1C49600D2C4F5 /* ViewController+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Navigation.swift"; sourceTree = "<group>"; };
-		7AE502E32BB1C4DB00D2C4F5 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		7AE502E32BB1C4DB00D2C4F5 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		7AE502E52BB1C4F000D2C4F5 /* Cell+Configurer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cell+Configurer.swift"; sourceTree = "<group>"; };
 		7AE502F32BB1C74E00D2C4F5 /* CityNetNetworkKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CityNetNetworkKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE502F52BB1C74E00D2C4F5 /* CityNetUIkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CityNetUIkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -231,6 +276,46 @@
 		7AE503D62BBEA5BD00D2C4F5 /* CustomBackBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackBtnView.swift; sourceTree = "<group>"; };
 		7AE503D82BBEBEDB00D2C4F5 /* PurseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurseView.swift; sourceTree = "<group>"; };
 		7AE503DA2BBEDAB400D2C4F5 /* SingleOfferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleOfferView.swift; sourceTree = "<group>"; };
+		7AE503DF2BC0932200D2C4F5 /* AddressesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressesView.swift; sourceTree = "<group>"; };
+		7AE503E12BC0933C00D2C4F5 /* AdressCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdressCollectionViewCell.swift; sourceTree = "<group>"; };
+		7AE503E42BC0939000D2C4F5 /* AddressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressModel.swift; sourceTree = "<group>"; };
+		7AE503E72BC0983F00D2C4F5 /* AddressCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressCardView.swift; sourceTree = "<group>"; };
+		7AE503E92BC09ABB00D2C4F5 /* AddressStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressStatusView.swift; sourceTree = "<group>"; };
+		7AE503EB2BC09B6100D2C4F5 /* AddressInfoTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressInfoTile.swift; sourceTree = "<group>"; };
+		7AE503ED2BC09C4B00D2C4F5 /* CopyCodeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyCodeButton.swift; sourceTree = "<group>"; };
+		7AE503EF2BC09D0600D2C4F5 /* AppLighterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLighterButton.swift; sourceTree = "<group>"; };
+		7AE503F12BC09DD200D2C4F5 /* DashedLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashedLine.swift; sourceTree = "<group>"; };
+		7AE503F32BC09E9700D2C4F5 /* ViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Ext.swift"; sourceTree = "<group>"; };
+		7AE503F52BC09EDD00D2C4F5 /* Double+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Ext.swift"; sourceTree = "<group>"; };
+		7AE503F72BC09F7F00D2C4F5 /* AddressProfitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressProfitCardView.swift; sourceTree = "<group>"; };
+		7AE503FD2BC11F6B00D2C4F5 /* AddressDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDetailPresenter.swift; sourceTree = "<group>"; };
+		7AE503FE2BC11F6B00D2C4F5 /* AddressDetailWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDetailWorker.swift; sourceTree = "<group>"; };
+		7AE503FF2BC11F6B00D2C4F5 /* AddressDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDetailRouter.swift; sourceTree = "<group>"; };
+		7AE504002BC11F6B00D2C4F5 /* AddressDetailModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDetailModels.swift; sourceTree = "<group>"; };
+		7AE504012BC11F6B00D2C4F5 /* AddressDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDetailViewController.swift; sourceTree = "<group>"; };
+		7AE504022BC11F6B00D2C4F5 /* AddressDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDetailInteractor.swift; sourceTree = "<group>"; };
+		7AE504032BC11F6B00D2C4F5 /* AddressDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDetailView.swift; sourceTree = "<group>"; };
+		7AE504042BC11F6B00D2C4F5 /* AddressDetailConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDetailConfigurator.swift; sourceTree = "<group>"; };
+		7AE5040F2BC1206C00D2C4F5 /* AddressDetailAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDetailAction.swift; sourceTree = "<group>"; };
+		7AE504112BC127DC00D2C4F5 /* AddressDetailActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDetailActionsView.swift; sourceTree = "<group>"; };
+		7AE504132BC1282B00D2C4F5 /* SingleAddressActionTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleAddressActionTile.swift; sourceTree = "<group>"; };
+		7AE504152BC1294600D2C4F5 /* AddressDetailBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDetailBottomView.swift; sourceTree = "<group>"; };
+		7AE504172BC1298500D2C4F5 /* ArrowDownButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowDownButton.swift; sourceTree = "<group>"; };
+		7AE5041A2BC131E200D2C4F5 /* ProfitAddressDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitAddressDetailPresenter.swift; sourceTree = "<group>"; };
+		7AE5041B2BC131E200D2C4F5 /* ProfitAddressDetailWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitAddressDetailWorker.swift; sourceTree = "<group>"; };
+		7AE5041C2BC131E200D2C4F5 /* ProfitAddressDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitAddressDetailRouter.swift; sourceTree = "<group>"; };
+		7AE5041D2BC131E200D2C4F5 /* ProfitAddressDetailModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitAddressDetailModels.swift; sourceTree = "<group>"; };
+		7AE5041E2BC131E200D2C4F5 /* ProfitAddressDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitAddressDetailViewController.swift; sourceTree = "<group>"; };
+		7AE5041F2BC131E200D2C4F5 /* ProfitAddressDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitAddressDetailInteractor.swift; sourceTree = "<group>"; };
+		7AE504202BC131E200D2C4F5 /* ProfitAddressDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitAddressDetailView.swift; sourceTree = "<group>"; };
+		7AE504212BC131E200D2C4F5 /* ProfitAddressDetailConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitAddressDetailConfigurator.swift; sourceTree = "<group>"; };
+		7AE5042B2BC2A2BF00D2C4F5 /* ProfitWalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitWalletView.swift; sourceTree = "<group>"; };
+		7AE5042D2BC2A2EC00D2C4F5 /* ProfitWalletContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitWalletContentView.swift; sourceTree = "<group>"; };
+		7AE5042F2BC2A4FE00D2C4F5 /* BottomSeeMoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSeeMoreView.swift; sourceTree = "<group>"; };
+		7AE504322BC2B0FE00D2C4F5 /* ProfitOfferType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitOfferType.swift; sourceTree = "<group>"; };
+		7AE504352BC2B12200D2C4F5 /* ProfitAddressDetailNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitAddressDetailNavBar.swift; sourceTree = "<group>"; };
+		7AE504372BC2B19500D2C4F5 /* ProfitOffersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitOffersView.swift; sourceTree = "<group>"; };
+		7AE504392BC2B1F300D2C4F5 /* SingleProfitOfferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleProfitOfferView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +325,7 @@
 			files = (
 				7AE503542BB3FDDA00D2C4F5 /* SnapKit in Frameworks */,
 				7AE502F42BB1C74E00D2C4F5 /* CityNetNetworkKit.framework in Frameworks */,
+				7AE503FB2BC11E8A00D2C4F5 /* Hero in Frameworks */,
 				7AE502F62BB1C74E00D2C4F5 /* CityNetUIkit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +333,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A4B2E222BC408F300E889F9 /* AnimationCoins */ = {
+			isa = PBXGroup;
+			children = (
+				7A4B2E232BC4090500E889F9 /* AnimatingCoinsView.swift */,
+			);
+			path = AnimationCoins;
+			sourceTree = "<group>";
+		};
 		7AE502842BB1C0E100D2C4F5 = {
 			isa = PBXGroup;
 			children = (
@@ -310,6 +404,8 @@
 		7AE502D52BB1C3D400D2C4F5 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				7AE504192BC131CC00D2C4F5 /* ProfitAddressDetail */,
+				7AE503FC2BC11F5600D2C4F5 /* AddressDetail */,
 				7AE503C02BBE7FE100D2C4F5 /* CounterInfo */,
 				7AE5035A2BB53F7B00D2C4F5 /* TariffInfo */,
 				7AE5033B2BB3ED9600D2C4F5 /* More */,
@@ -324,9 +420,13 @@
 		7AE502D62BB1C3E300D2C4F5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7A4B2E222BC408F300E889F9 /* AnimationCoins */,
+				7AE5042A2BC2A28700D2C4F5 /* CounterWallet */,
+				7AE503E62BC0982800D2C4F5 /* Cards */,
 				7AE5039B2BB9450700D2C4F5 /* Buttons */,
 				7AE503912BB93FA800D2C4F5 /* AppStepper.swift */,
 				7AE503A02BB946A100D2C4F5 /* AppDivider.swift */,
+				7AE503F12BC09DD200D2C4F5 /* DashedLine.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -361,9 +461,11 @@
 		7AE502E22BB1C4D100D2C4F5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				7AE502E32BB1C4DB00D2C4F5 /* Extension.swift */,
+				7AE502E32BB1C4DB00D2C4F5 /* View+Extension.swift */,
 				7AE502E52BB1C4F000D2C4F5 /* Cell+Configurer.swift */,
 				7AE503A42BB9485300D2C4F5 /* TableView+Ext.swift */,
+				7AE503F32BC09E9700D2C4F5 /* ViewController+Ext.swift */,
+				7AE503F52BC09EDD00D2C4F5 /* Double+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -388,6 +490,7 @@
 		7AE502F72BB1C7B100D2C4F5 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				7AE503E32BC0937F00D2C4F5 /* Models */,
 				7AE503A82BB9B1DC00D2C4F5 /* Views */,
 				7AE503092BB1C99600D2C4F5 /* DashboardPresenter.swift */,
 				7AE5030A2BB1C99600D2C4F5 /* DashboardWorker.swift */,
@@ -558,6 +661,9 @@
 			children = (
 				7AE5039C2BB9451000D2C4F5 /* AppPrimaryButton.swift */,
 				7AE503AF2BBC9B6E00D2C4F5 /* TariffReusableButton.swift */,
+				7AE503ED2BC09C4B00D2C4F5 /* CopyCodeButton.swift */,
+				7AE503EF2BC09D0600D2C4F5 /* AppLighterButton.swift */,
+				7AE504172BC1298500D2C4F5 /* ArrowDownButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -579,6 +685,9 @@
 				7AE503B72BBD3B7400D2C4F5 /* StoryCollectionViewCell.swift */,
 				7AE503B92BBD4F0900D2C4F5 /* NoOperationsTableViewCell.swift */,
 				7AE503BE2BBD549200D2C4F5 /* OperationsTableViewCell.swift */,
+				7AE503E12BC0933C00D2C4F5 /* AdressCollectionViewCell.swift */,
+				7AE503E92BC09ABB00D2C4F5 /* AddressStatusView.swift */,
+				7AE503EB2BC09B6100D2C4F5 /* AddressInfoTile.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -589,6 +698,7 @@
 				7AE503AB2BB9B40900D2C4F5 /* CustomNavBarView.swift */,
 				7AE503AD2BBC96A900D2C4F5 /* CardView.swift */,
 				7AE503BB2BBD506700D2C4F5 /* AllOperationsHeaderView.swift */,
+				7AE503DF2BC0932200D2C4F5 /* AddressesView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -636,6 +746,104 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		7AE503E32BC0937F00D2C4F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7AE503E42BC0939000D2C4F5 /* AddressModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7AE503E62BC0982800D2C4F5 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				7AE503E72BC0983F00D2C4F5 /* AddressCardView.swift */,
+				7AE503F72BC09F7F00D2C4F5 /* AddressProfitCardView.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		7AE503FC2BC11F5600D2C4F5 /* AddressDetail */ = {
+			isa = PBXGroup;
+			children = (
+				7AE5040E2BC1205900D2C4F5 /* Models */,
+				7AE5040D2BC1203300D2C4F5 /* Views */,
+				7AE503FD2BC11F6B00D2C4F5 /* AddressDetailPresenter.swift */,
+				7AE503FE2BC11F6B00D2C4F5 /* AddressDetailWorker.swift */,
+				7AE503FF2BC11F6B00D2C4F5 /* AddressDetailRouter.swift */,
+				7AE504002BC11F6B00D2C4F5 /* AddressDetailModels.swift */,
+				7AE504012BC11F6B00D2C4F5 /* AddressDetailViewController.swift */,
+				7AE504022BC11F6B00D2C4F5 /* AddressDetailInteractor.swift */,
+				7AE504032BC11F6B00D2C4F5 /* AddressDetailView.swift */,
+				7AE504042BC11F6B00D2C4F5 /* AddressDetailConfigurator.swift */,
+			);
+			path = AddressDetail;
+			sourceTree = "<group>";
+		};
+		7AE5040D2BC1203300D2C4F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7AE504112BC127DC00D2C4F5 /* AddressDetailActionsView.swift */,
+				7AE504132BC1282B00D2C4F5 /* SingleAddressActionTile.swift */,
+				7AE504152BC1294600D2C4F5 /* AddressDetailBottomView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7AE5040E2BC1205900D2C4F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7AE5040F2BC1206C00D2C4F5 /* AddressDetailAction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7AE504192BC131CC00D2C4F5 /* ProfitAddressDetail */ = {
+			isa = PBXGroup;
+			children = (
+				7AE504342BC2B11600D2C4F5 /* Views */,
+				7AE504312BC2B0F300D2C4F5 /* Models */,
+				7AE5041A2BC131E200D2C4F5 /* ProfitAddressDetailPresenter.swift */,
+				7AE5041B2BC131E200D2C4F5 /* ProfitAddressDetailWorker.swift */,
+				7AE5041C2BC131E200D2C4F5 /* ProfitAddressDetailRouter.swift */,
+				7AE5041D2BC131E200D2C4F5 /* ProfitAddressDetailModels.swift */,
+				7AE5041E2BC131E200D2C4F5 /* ProfitAddressDetailViewController.swift */,
+				7AE5041F2BC131E200D2C4F5 /* ProfitAddressDetailInteractor.swift */,
+				7AE504202BC131E200D2C4F5 /* ProfitAddressDetailView.swift */,
+				7AE504212BC131E200D2C4F5 /* ProfitAddressDetailConfigurator.swift */,
+			);
+			path = ProfitAddressDetail;
+			sourceTree = "<group>";
+		};
+		7AE5042A2BC2A28700D2C4F5 /* CounterWallet */ = {
+			isa = PBXGroup;
+			children = (
+				7AE5042B2BC2A2BF00D2C4F5 /* ProfitWalletView.swift */,
+				7AE5042D2BC2A2EC00D2C4F5 /* ProfitWalletContentView.swift */,
+				7AE5042F2BC2A4FE00D2C4F5 /* BottomSeeMoreView.swift */,
+				7A4B2E252BC41BC200E889F9 /* CoinView.swift */,
+			);
+			path = CounterWallet;
+			sourceTree = "<group>";
+		};
+		7AE504312BC2B0F300D2C4F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7AE504322BC2B0FE00D2C4F5 /* ProfitOfferType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7AE504342BC2B11600D2C4F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7AE504352BC2B12200D2C4F5 /* ProfitAddressDetailNavBar.swift */,
+				7AE504372BC2B19500D2C4F5 /* ProfitOffersView.swift */,
+				7AE504392BC2B1F300D2C4F5 /* SingleProfitOfferView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -654,6 +862,7 @@
 			name = CityNetApp;
 			packageProductDependencies = (
 				7AE503532BB3FDDA00D2C4F5 /* SnapKit */,
+				7AE503FA2BC11E8A00D2C4F5 /* Hero */,
 			);
 			productName = CityNetApp;
 			productReference = 7AE5028D2BB1C0E100D2C4F5 /* CityNetApp.app */;
@@ -685,6 +894,7 @@
 			mainGroup = 7AE502842BB1C0E100D2C4F5;
 			packageReferences = (
 				7AE503522BB3FDDA00D2C4F5 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				7AE503F92BC11E8A00D2C4F5 /* XCRemoteSwiftPackageReference "Hero" */,
 			);
 			productRefGroup = 7AE5028E2BB1C0E100D2C4F5 /* Products */;
 			projectDirPath = "";
@@ -716,10 +926,15 @@
 				7AE503A72BB9487100D2C4F5 /* TariffInfoBottomCheckoutView.swift in Sources */,
 				7AE503332BB3ED2600D2C4F5 /* TariffsPresenter.swift in Sources */,
 				7AE503CF2BBE800700D2C4F5 /* CounterInfoView.swift in Sources */,
+				7AE504062BC11F6B00D2C4F5 /* AddressDetailWorker.swift in Sources */,
 				7AE503152BB1C99600D2C4F5 /* DashboardViewController.swift in Sources */,
 				7AE503CC2BBE800700D2C4F5 /* CounterInfoModels.swift in Sources */,
 				7AE502DD2BB1C41F00D2C4F5 /* ThemeableView.swift in Sources */,
 				7AE503382BB3ED2600D2C4F5 /* TariffsInteractor.swift in Sources */,
+				7AE504102BC1206C00D2C4F5 /* AddressDetailAction.swift in Sources */,
+				7AE503E22BC0933C00D2C4F5 /* AdressCollectionViewCell.swift in Sources */,
+				7AE5040A2BC11F6B00D2C4F5 /* AddressDetailInteractor.swift in Sources */,
+				7AE504142BC1282B00D2C4F5 /* SingleAddressActionTile.swift in Sources */,
 				7AE503D52BBE835F00D2C4F5 /* CounterInfoDetailsView.swift in Sources */,
 				7AE503B42BBD349800D2C4F5 /* SpeedCardsTableViewCell.swift in Sources */,
 				7AE503C92BBE800700D2C4F5 /* CounterInfoPresenter.swift in Sources */,
@@ -728,59 +943,88 @@
 				7AE503652BB53F9000D2C4F5 /* TariffInfoRouter.swift in Sources */,
 				7AE503122BB1C99600D2C4F5 /* DashboardWorker.swift in Sources */,
 				7AE503BC2BBD506700D2C4F5 /* AllOperationsHeaderView.swift in Sources */,
+				7AE504382BC2B19500D2C4F5 /* ProfitOffersView.swift in Sources */,
 				7AE5039A2BB944B400D2C4F5 /* TariffTableViewCell.swift in Sources */,
 				7AE503A52BB9485300D2C4F5 /* TableView+Ext.swift in Sources */,
+				7AE503F42BC09E9700D2C4F5 /* ViewController+Ext.swift in Sources */,
 				7AE503242BB3EB8A00D2C4F5 /* SupportRouter.swift in Sources */,
 				7AE5034A2BB3EDA500D2C4F5 /* MoreView.swift in Sources */,
 				7AE502D42BB1C3AF00D2C4F5 /* AppAssets.swift in Sources */,
 				7AE503182BB1C99600D2C4F5 /* DashboardConfigurator.swift in Sources */,
+				7AE5040B2BC11F6B00D2C4F5 /* AddressDetailView.swift in Sources */,
+				7A4B2E262BC41BC200E889F9 /* CoinView.swift in Sources */,
 				7AE502E12BB1C49600D2C4F5 /* ViewController+Navigation.swift in Sources */,
 				7AE503712BB545B000D2C4F5 /* TableViewInfoHeader.swift in Sources */,
+				7AE504242BC131E200D2C4F5 /* ProfitAddressDetailRouter.swift in Sources */,
+				7AE504292BC131E200D2C4F5 /* ProfitAddressDetailConfigurator.swift in Sources */,
 				7AE5036A2BB53F9000D2C4F5 /* TariffInfoConfigurator.swift in Sources */,
 				7AE503942BB941D100D2C4F5 /* TariffCellTopView.swift in Sources */,
 				7AE503682BB53F9000D2C4F5 /* TariffInfoInteractor.swift in Sources */,
 				7AE5033A2BB3ED2600D2C4F5 /* TariffsConfigurator.swift in Sources */,
 				7AE503D92BBEBEDC00D2C4F5 /* PurseView.swift in Sources */,
 				7AE503082BB1C7E400D2C4F5 /* TabBarConfigurator.swift in Sources */,
+				7AE503F02BC09D0600D2C4F5 /* AppLighterButton.swift in Sources */,
 				7AE503452BB3EDA500D2C4F5 /* MoreWorker.swift in Sources */,
 				7AE503172BB1C99600D2C4F5 /* DashboardView.swift in Sources */,
+				7AE5043A2BC2B1F300D2C4F5 /* SingleProfitOfferView.swift in Sources */,
 				7AE503272BB3EB8A00D2C4F5 /* SupportInteractor.swift in Sources */,
 				7AE503232BB3EB8A00D2C4F5 /* SupportWorker.swift in Sources */,
+				7AE504072BC11F6B00D2C4F5 /* AddressDetailRouter.swift in Sources */,
 				7AE503732BB546DD00D2C4F5 /* TariffInfoCell.swift in Sources */,
 				7AE502E62BB1C4F000D2C4F5 /* Cell+Configurer.swift in Sources */,
 				7AE503CB2BBE800700D2C4F5 /* CounterInfoRouter.swift in Sources */,
+				7AE504252BC131E200D2C4F5 /* ProfitAddressDetailModels.swift in Sources */,
 				7AE503592BB499B300D2C4F5 /* TableViewHeader.swift in Sources */,
+				7AE503EC2BC09B6100D2C4F5 /* AddressInfoTile.swift in Sources */,
 				7AE503882BB93C6500D2C4F5 /* TitleTableViewCell.swift in Sources */,
 				7AE503642BB53F9000D2C4F5 /* TariffInfoWorker.swift in Sources */,
 				7AE503772BB5948600D2C4F5 /* TariffInfoPackageDetailsCell.swift in Sources */,
 				7AE503792BB59A1700D2C4F5 /* TariffInfoToastView.swift in Sources */,
+				7AE504282BC131E200D2C4F5 /* ProfitAddressDetailView.swift in Sources */,
 				7AE503442BB3EDA500D2C4F5 /* MorePresenter.swift in Sources */,
+				7AE504232BC131E200D2C4F5 /* ProfitAddressDetailWorker.swift in Sources */,
+				7A4B2E242BC4090500E889F9 /* AnimatingCoinsView.swift in Sources */,
 				7AE503012BB1C7E400D2C4F5 /* TabBarPresenter.swift in Sources */,
 				7AE503CA2BBE800700D2C4F5 /* CounterInfoWorker.swift in Sources */,
 				7AE503032BB1C7E400D2C4F5 /* TabBarRouter.swift in Sources */,
 				7AE503262BB3EB8A00D2C4F5 /* SupportViewController.swift in Sources */,
+				7AE503EE2BC09C4B00D2C4F5 /* CopyCodeButton.swift in Sources */,
 				7AE503112BB1C99600D2C4F5 /* DashboardPresenter.swift in Sources */,
+				7AE503F22BC09DD200D2C4F5 /* DashedLine.swift in Sources */,
 				7AE503252BB3EB8A00D2C4F5 /* SupportModels.swift in Sources */,
 				7AE503B02BBC9B6E00D2C4F5 /* TariffReusableButton.swift in Sources */,
+				7AE504082BC11F6B00D2C4F5 /* AddressDetailModels.swift in Sources */,
 				7AE503AC2BB9B40900D2C4F5 /* CustomNavBarView.swift in Sources */,
 				7AE503662BB53F9000D2C4F5 /* TariffInfoModels.swift in Sources */,
 				7AE5039F2BB9459900D2C4F5 /* ExtraServiceViewCell.swift in Sources */,
 				7AE503A32BB9478200D2C4F5 /* ExtraServicesSectionHeaderView.swift in Sources */,
+				7AE504272BC131E200D2C4F5 /* ProfitAddressDetailInteractor.swift in Sources */,
 				7AE503902BB93F3300D2C4F5 /* DeleteServiceButton.swift in Sources */,
 				7AE503B82BBD3B7400D2C4F5 /* StoryCollectionViewCell.swift in Sources */,
+				7AE504262BC131E200D2C4F5 /* ProfitAddressDetailViewController.swift in Sources */,
 				7AE503B62BBD3AA600D2C4F5 /* StoriesTableViewCell.swift in Sources */,
 				7AE503282BB3EB8A00D2C4F5 /* SupportView.swift in Sources */,
 				7AE5037D2BB6144100D2C4F5 /* AdditionalServicesHeaderView.swift in Sources */,
 				7AE503692BB53F9000D2C4F5 /* TariffInfoView.swift in Sources */,
 				7AE503BF2BBD549200D2C4F5 /* OperationsTableViewCell.swift in Sources */,
 				7AE5038A2BB93D7900D2C4F5 /* TariffInfoCardView.swift in Sources */,
+				7AE503F82BC09F7F00D2C4F5 /* AddressProfitCardView.swift in Sources */,
 				7AE503132BB1C99600D2C4F5 /* DashboardRouter.swift in Sources */,
+				7AE504222BC131E200D2C4F5 /* ProfitAddressDetailPresenter.swift in Sources */,
 				7AE503392BB3ED2600D2C4F5 /* TariffsView.swift in Sources */,
 				7AE503632BB53F9000D2C4F5 /* TariffInfoPresenter.swift in Sources */,
+				7AE504052BC11F6B00D2C4F5 /* AddressDetailPresenter.swift in Sources */,
+				7AE504302BC2A4FE00D2C4F5 /* BottomSeeMoreView.swift in Sources */,
 				7AE503572BB4397200D2C4F5 /* FeatureView.swift in Sources */,
+				7AE504332BC2B0FE00D2C4F5 /* ProfitOfferType.swift in Sources */,
 				7AE503922BB93FA800D2C4F5 /* AppStepper.swift in Sources */,
-				7AE502E42BB1C4DB00D2C4F5 /* Extension.swift in Sources */,
+				7AE503E52BC0939000D2C4F5 /* AddressModel.swift in Sources */,
+				7AE5042E2BC2A2EC00D2C4F5 /* ProfitWalletContentView.swift in Sources */,
+				7AE502E42BB1C4DB00D2C4F5 /* View+Extension.swift in Sources */,
 				7AE503372BB3ED2600D2C4F5 /* TariffsViewController.swift in Sources */,
+				7AE5040C2BC11F6B00D2C4F5 /* AddressDetailConfigurator.swift in Sources */,
+				7AE503EA2BC09ABB00D2C4F5 /* AddressStatusView.swift in Sources */,
+				7AE504092BC11F6B00D2C4F5 /* AddressDetailViewController.swift in Sources */,
 				7AE503962BB9423F00D2C4F5 /* TariffContentSingleTile.swift in Sources */,
 				7AE503862BB93B3500D2C4F5 /* ServiceOptionType.swift in Sources */,
 				7AE502DF2BB1C46A00D2C4F5 /* MainNavigation.swift in Sources */,
@@ -790,6 +1034,7 @@
 				7AE5034B2BB3EDA500D2C4F5 /* MoreConfigurator.swift in Sources */,
 				7AE503292BB3EB8A00D2C4F5 /* SupportConfigurator.swift in Sources */,
 				7AE503222BB3EB8A00D2C4F5 /* SupportPresenter.swift in Sources */,
+				7AE503F62BC09EDD00D2C4F5 /* Double+Ext.swift in Sources */,
 				7AE503462BB3EDA500D2C4F5 /* MoreRouter.swift in Sources */,
 				7AE503472BB3EDA500D2C4F5 /* MoreModels.swift in Sources */,
 				7AE503352BB3ED2600D2C4F5 /* TariffsRouter.swift in Sources */,
@@ -797,8 +1042,11 @@
 				7AE503142BB1C99600D2C4F5 /* DashboardModels.swift in Sources */,
 				7AE503482BB3EDA500D2C4F5 /* MoreViewController.swift in Sources */,
 				7AE503BA2BBD4F0900D2C4F5 /* NoOperationsTableViewCell.swift in Sources */,
+				7AE504162BC1294600D2C4F5 /* AddressDetailBottomView.swift in Sources */,
 				7AE503A12BB946A100D2C4F5 /* AppDivider.swift in Sources */,
 				7AE503D72BBEA5BD00D2C4F5 /* CustomBackBtnView.swift in Sources */,
+				7AE503E82BC0983F00D2C4F5 /* AddressCardView.swift in Sources */,
+				7AE504182BC1298500D2C4F5 /* ArrowDownButton.swift in Sources */,
 				7AE502CE2BB1C1A500D2C4F5 /* AppContainer.swift in Sources */,
 				7AE502912BB1C0E100D2C4F5 /* AppDelegate.swift in Sources */,
 				7AE502DB2BB1C41600D2C4F5 /* ThemeableViewController.swift in Sources */,
@@ -806,14 +1054,18 @@
 				7AE503982BB9448600D2C4F5 /* ToastTableViewCell.swift in Sources */,
 				7AE503042BB1C7E400D2C4F5 /* TabBarModels.swift in Sources */,
 				7AE503342BB3ED2600D2C4F5 /* TariffsWorker.swift in Sources */,
+				7AE504362BC2B12200D2C4F5 /* ProfitAddressDetailNavBar.swift in Sources */,
 				7AE502D02BB1C1B300D2C4F5 /* AppRouter.swift in Sources */,
 				7AE503512BB3F69300D2C4F5 /* TariffsTableView.swift in Sources */,
 				7AE5039D2BB9451000D2C4F5 /* AppPrimaryButton.swift in Sources */,
+				7AE503E02BC0932200D2C4F5 /* AddressesView.swift in Sources */,
 				7AE5038E2BB93E5F00D2C4F5 /* ExtraServiceSingleView.swift in Sources */,
 				7AE503CE2BBE800700D2C4F5 /* CounterInfoInteractor.swift in Sources */,
 				7AE503052BB1C7E400D2C4F5 /* TabBarViewController.swift in Sources */,
 				7AE503672BB53F9000D2C4F5 /* TariffInfoViewController.swift in Sources */,
 				7AE503362BB3ED2600D2C4F5 /* TariffsModels.swift in Sources */,
+				7AE504122BC127DC00D2C4F5 /* AddressDetailActionsView.swift in Sources */,
+				7AE5042C2BC2A2BF00D2C4F5 /* ProfitWalletView.swift in Sources */,
 				7AE503022BB1C7E400D2C4F5 /* TabBarWorker.swift in Sources */,
 				7AE503162BB1C99600D2C4F5 /* DashboardInteractor.swift in Sources */,
 				7AE5038C2BB93DAD00D2C4F5 /* TariffModel.swift in Sources */,
@@ -1039,6 +1291,14 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		7AE503F92BC11E8A00D2C4F5 /* XCRemoteSwiftPackageReference "Hero" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/HeroTransitions/Hero";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1046,6 +1306,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7AE503522BB3FDDA00D2C4F5 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		7AE503FA2BC11E8A00D2C4F5 /* Hero */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7AE503F92BC11E8A00D2C4F5 /* XCRemoteSwiftPackageReference "Hero" */;
+			productName = Hero;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

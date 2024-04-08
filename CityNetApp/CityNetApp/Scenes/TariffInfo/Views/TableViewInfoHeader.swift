@@ -9,9 +9,9 @@ import UIKit
 import SnapKit
 import CityNetUIkit
 
-class TariffTableViewInfoHeader: UIView, ThemeableView {
+class TariffTableViewInfoHeader: UIView {
     
-    var theme: ThemeProvider = App.theme
+    
     
     lazy var titleLabel: UILabel = {
         let label = UILabel()

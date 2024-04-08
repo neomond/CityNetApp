@@ -8,9 +8,9 @@
 import UIKit
 import CityNetUIkit
 
-final class TotalPriceView: UIView, ThemeableView {
+final class TotalPriceView: UIView {
     
-    var theme: ThemeProvider = App.theme
+    
     
     private var checkoutStackView: UIStackView = {
         let view = UIStackView()

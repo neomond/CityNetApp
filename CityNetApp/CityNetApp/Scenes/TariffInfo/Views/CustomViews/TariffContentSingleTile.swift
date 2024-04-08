@@ -8,9 +8,9 @@
 import UIKit
 import CityNetUIkit
 
-class TariffContentSingleTile: UIStackView, ThemeableView {
+class TariffContentSingleTile: UIStackView {
     
-    var theme: ThemeProvider = App.theme
+    
     
     var data: TariffInfoType? {
         didSet {

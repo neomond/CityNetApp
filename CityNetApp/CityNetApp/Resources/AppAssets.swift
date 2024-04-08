@@ -45,7 +45,25 @@ public enum AppAssets: String, CaseIterable {
     
     case brandLogo
     
+    case home_wifi
+    case speed_test
+    case calendar
+    case receipt
+    case wallet_outlined
+    case home_add
+    case basket
+    case shield_check
+    case copy
+    case arrow_forward
     
+    case user
+    case settings
+    case trash
+    case arrowDown
+    
+    case profitBg
+    case coin
+  
 }
 
 extension AppAssets {

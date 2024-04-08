@@ -8,9 +8,9 @@
 import UIKit
 import CityNetUIkit
 
-class AdditionalServicesHeaderView: UIView, ThemeableView {
+class AdditionalServicesHeaderView: UIView {
     
-    var theme: ThemeProvider = App.theme
+    
     
         private lazy var titleLabel: UILabel = {
             let lbl = UILabel()

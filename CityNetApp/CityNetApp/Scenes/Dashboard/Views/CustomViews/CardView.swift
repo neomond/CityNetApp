@@ -8,10 +8,8 @@
 import UIKit
 import CityNetUIkit
 
-class CardView: UIView, ThemeableView {
-    
-    var theme: ThemeProvider = App.theme
-    
+class CardView: UIView{
+      
     let cardView: UIView = {
         let view = UIView()
         view.layer.cornerRadius = 16

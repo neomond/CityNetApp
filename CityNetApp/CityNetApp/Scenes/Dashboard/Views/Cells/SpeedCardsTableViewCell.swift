@@ -8,10 +8,15 @@
 import UIKit
 import CityNetUIkit
 
-class SpeedCardsTableViewCell: UITableViewCell, ThemeableView {
+protocol SpeedCardsTableViewCellDelegate: AnyObject {
+    func goToTariffTab()
+}
+
+class SpeedCardsTableViewCell: UITableViewCell {
     static let identifier = "SpeedCardsTableViewCell"
     
-    var theme: ThemeProvider = App.theme
+    
+    weak var delegate: SpeedCardsTableViewCellDelegate?
     
     lazy var speedCardView: UIView = {
         let view = UIView()
@@ -70,6 +75,7 @@ class SpeedCardsTableViewCell: UITableViewCell, ThemeableView {
                                           backgroundColor: self.adaptiveColor(.main),
                                           titleColor: self.adaptiveColor(.whitePrimary),
                                           font: AppFonts.SFBoldCallout.fontStyle)
+        button.addTarget(self, action: #selector(goToTariffTab), for: .touchUpInside)
         return button
     }()
     
@@ -150,6 +156,8 @@ class SpeedCardsTableViewCell: UITableViewCell, ThemeableView {
         super.updateConstraints()
     }
     
-    
+    @objc func goToTariffTab() {
+        delegate?.goToTariffTab()
+    }
     
 }

@@ -8,8 +8,8 @@
 import UIKit
 import CityNetUIkit
 
-class ExtraServicesSectionHeaderView: UIView, ThemeableView {
-    var theme: ThemeProvider = App.theme
+class ExtraServicesSectionHeaderView: UIView {
+    
     
     private lazy var titleLabel: UILabel = {
         let lbl = UILabel()

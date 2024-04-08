@@ -8,9 +8,9 @@
 import UIKit
 import CityNetUIkit
 
-class AppPrimaryButton: UIButton, ThemeableView {
+class AppPrimaryButton: UIButton {
         
-    var theme: ThemeProvider = App.theme
+    
     //MARK: Init
     
     override init(frame: CGRect) {

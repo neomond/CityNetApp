@@ -8,9 +8,9 @@
 import UIKit
 import CityNetUIkit
 
-class TariffReusableButton: UIButton, ThemeableView {
+class TariffReusableButton: UIButton {
     
-    var theme: ThemeProvider = App.theme
+    
     
     init(title: String, backgroundColor: UIColor, titleColor: UIColor, font: UIFont) {
         super.init(frame: .zero)

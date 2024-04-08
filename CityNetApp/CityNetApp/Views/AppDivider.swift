@@ -8,9 +8,7 @@
 import UIKit
 import CityNetUIkit
 
-class AppDivider: UIView, ThemeableView {
-    
-    var theme: ThemeProvider = App.theme
+class AppDivider: UIView{
     
     //MARK: Init
     override init(frame: CGRect) {
@@ -24,12 +22,9 @@ class AppDivider: UIView, ThemeableView {
 
     private func setupDivider() {
         self.backgroundColor = adaptiveColor(.graySecondary)
-    }
-    
-    override func updateConstraints() {
-        super.updateConstraints()
-        self.snp.updateConstraints { make in
+        self.snp.makeConstraints { make in
             make.height.equalTo(1)
         }
     }
+    
 }

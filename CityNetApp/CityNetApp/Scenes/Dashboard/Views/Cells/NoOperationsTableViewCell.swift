@@ -8,10 +8,10 @@
 import UIKit
 import CityNetUIkit
 
-class NoOperationsTableViewCell: UITableViewCell, ThemeableView {
+class NoOperationsTableViewCell: UITableViewCell {
     static let identifier = "NoOperationsTableViewCell"
     
-    var theme: ThemeProvider = App.theme
+    
     
     private let contentStackView: UIStackView = {
         let view = UIStackView()

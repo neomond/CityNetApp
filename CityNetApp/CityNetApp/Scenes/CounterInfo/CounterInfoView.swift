@@ -10,11 +10,11 @@ import CityNetUIkit
 
 protocol CounterInfoViewDelegate: AnyObject { }
 
-final class CounterInfoView: UIView, ThemeableView {
+final class CounterInfoView: UIView {
     
     weak var delegate: CounterInfoViewDelegate?
     
-    var theme: ThemeProvider = App.theme
+    
     
     lazy var customNavBarView: CustomBackBtnView = {
         let view = CustomBackBtnView()

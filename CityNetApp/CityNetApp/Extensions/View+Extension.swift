@@ -6,6 +6,14 @@
 //
 
 import UIKit
+import CityNetUIkit
+
+extension UIView: ThemeableView {
+    var theme: ThemeProvider {
+        App.theme
+    }
+}
+
 
 public extension UIView {
     

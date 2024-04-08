@@ -9,9 +9,9 @@ import UIKit
 import CityNetUIkit
 
 
-final class MainNavigation: UINavigationController, ThemeableViewController {
+final class MainNavigation: UINavigationController {
     
-    var theme: ThemeProvider = App.theme
+    
     
     var barTintColor: UIColor? {
         didSet {

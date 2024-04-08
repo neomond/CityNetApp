@@ -12,10 +12,10 @@ protocol TariffTableViewCellDelegate: AnyObject {
     func onTapJoinButton(model: TariffModel)
 }
 
-class TariffTableViewCell: UITableViewCell, ThemeableView {
+class TariffTableViewCell: UITableViewCell {
     
     static var reuseIdentifier = "TariffTableViewCell"
-    var theme: ThemeProvider = App.theme
+    
     
     weak var delegate: TariffTableViewCellDelegate?
     

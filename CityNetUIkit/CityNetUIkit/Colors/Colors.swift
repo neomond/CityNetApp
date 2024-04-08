@@ -25,6 +25,8 @@ public enum ColorStyle: String, CaseIterable {
     case callOut        = "callOut"
     case greenDark      = "greenDark"
     case slate          = "slate"
+    case cardBg         = "cardBg"
+    case gravel         = "gravel"
 }
 
 extension ColorStyle {

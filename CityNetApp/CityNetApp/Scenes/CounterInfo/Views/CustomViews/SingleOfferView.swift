@@ -8,9 +8,9 @@
 import UIKit
 import CityNetUIkit
 
-class SingleOfferView: UIView, ThemeableView {
+class SingleOfferView: UIView {
     
-    var theme: ThemeProvider = App.theme
+    
     
     lazy var imageView: UIImageView = {
         let view = UIImageView()

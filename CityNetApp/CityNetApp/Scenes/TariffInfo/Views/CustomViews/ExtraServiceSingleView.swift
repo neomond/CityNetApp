@@ -15,7 +15,7 @@ import CityNetUIkit
     
 }
 
-class ExtraServiceSingleView: UIView, ThemeableView {
+class ExtraServiceSingleView: UIView {
     
     var model: ServiceOptionType? {
         didSet {
@@ -23,7 +23,7 @@ class ExtraServiceSingleView: UIView, ThemeableView {
         }
     }
     
-    var theme: ThemeProvider = App.theme
+    
     weak var delegate: ExtraServiceSingleViewDelegate?
     
     //MARK: Init

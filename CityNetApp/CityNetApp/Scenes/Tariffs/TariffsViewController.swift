@@ -14,7 +14,10 @@ protocol TariffsDisplayLogic: AnyObject {
 }
 
 final class TariffsViewController: UIViewController, ThemeableViewController {
+    
     var theme: ThemeProvider = App.theme
+    
+    
     
     
     var mainView: TariffsView?

@@ -9,9 +9,9 @@ import UIKit
 import SnapKit
 import CityNetUIkit
 
-class TariffsTableViewHeader: UILabel, ThemeableView {
+class TariffsTableViewHeader: UILabel {
     
-    var theme: ThemeProvider = App.theme
+    
     
     //MARK: Init
     override init(frame: CGRect) {

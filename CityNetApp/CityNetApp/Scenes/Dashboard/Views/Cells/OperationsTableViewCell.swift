@@ -8,10 +8,10 @@
 import UIKit
 import CityNetUIkit
 
-class OperationsTableViewCell: UITableViewCell, ThemeableView {
+class OperationsTableViewCell: UITableViewCell {
     
     static let identifier = "OperationsTableViewCell"
-    var theme: ThemeProvider = App.theme
+    
     
     //MARK: init
     

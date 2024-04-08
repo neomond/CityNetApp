@@ -14,14 +14,15 @@ protocol DashboardBusinessLogic {
 
 protocol DashboardDataStore {
     
-    //var name: String { get set }
+    var addressModel: AddressModel? { get set }
 }
 
 final class DashboardInteractor: DashboardBusinessLogic, DashboardDataStore {
-    
+    var addressModel: AddressModel?
+
     var presenter: DashboardPresentationLogic?
     lazy var worker: DashboardWorkingLogic = DashboardWorker()
-    //var name: String = ""
+    
   
     
     // MARK: Business Logic

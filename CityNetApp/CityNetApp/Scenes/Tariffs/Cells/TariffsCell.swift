@@ -9,9 +9,9 @@ import UIKit
 import SnapKit
 import CityNetUIkit
 
-class TariffsCell: UITableViewCell, ThemeableView {
+class TariffsCell: UITableViewCell{
     
-    var theme: ThemeProvider = App.theme
+    
     
     static let identifier = "TariffsCell"
     

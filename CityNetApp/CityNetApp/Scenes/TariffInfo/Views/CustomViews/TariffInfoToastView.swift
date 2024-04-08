@@ -8,8 +8,8 @@
 import UIKit
 import CityNetUIkit
 
-class TariffInfoToastView: UIView, ThemeableView {
-    var theme: ThemeProvider = App.theme
+class TariffInfoToastView: UIView {
+    
     
     private lazy var stackView: UIStackView = {
         let view = UIStackView()

@@ -9,7 +9,8 @@ import UIKit
 
 protocol DashboardRoutingLogic {
     
-    //func routeToSomewhere()
+    func routeToProfitAddress()
+    func routeToAddressDetail(with model: AddressModel)
 }
 
 protocol DashboardDataPassing {
@@ -23,28 +24,48 @@ final class DashboardRouter: NSObject, DashboardRoutingLogic, DashboardDataPassi
   
     
     // MARK: Routing
+    
+    func routeToProfitAddress() {
+        let destinationVC = ProfitAddressDetailViewController()
+        
+        ProfitAddressDetailConfigurator.configure(destinationVC)
 
-//    func routeToSomewhere() {
-//        let destinationVC = SomewhereViewController()
-//        SomewhereConfigurator.configure(destinationVC)
-//
-//        var destinationDS = destinationVC.router!.dataStore!
-//        passDataToSomewhere(source: dataStore!, destination: &destinationDS)
-//
-//        navigateToSomewhere(source: viewController!, destination: destinationVC)
-//    }
+        var destinationDS = destinationVC.router!.dataStore!
+        passDataToProfitDetail(source: dataStore!, destination: &destinationDS)
+
+        navigateToProfitDetail(source: viewController!, destination: destinationVC)
+    }
+
+    func routeToAddressDetail(with model: AddressModel) {
+        let destinationVC = AddressDetailViewController()
+        AddressDetailConfigurator.configure(destinationVC)
+        dataStore?.addressModel = model
+        var destinationDS = destinationVC.router!.dataStore!
+        passDataToAddressDetail(source: dataStore!, destination: &destinationDS)
+
+        navigateToAddressDetail(source: viewController!, destination: destinationVC)
+    }
 
     
     // MARK: Navigation
-
-//    func navigateToSomewhere(source: DashboardViewController, destination: SomewhereViewController) {
-//        source.show(destination, sender: nil)
-//    }
-
+    func navigateToProfitDetail(source: DashboardViewController, destination: ProfitAddressDetailViewController) {
+        source.show(destination, sender: nil)
+    }
+    
+    func navigateToAddressDetail(source: DashboardViewController, destination: AddressDetailViewController) {
+        destination.hero.isEnabled = true
+//        destination.heroModalAnimationType = .fade
+        source.present(destination, animated: true)
+    }
     
     // MARK: Passing data
-
-//    func passDataToSomewhere(source: DashboardDataStore, destination: inout SomewhereDataStore) {
+    
+    func passDataToProfitDetail(source: DashboardDataStore, destination: inout ProfitAddressDetailDataStore) {
 //        destination.name = source.name
-//    }
+    }
+
+    
+    func passDataToAddressDetail(source: DashboardDataStore, destination: inout AddressDetailDataStore) {
+        destination.addressModel = source.addressModel
+    }
 }

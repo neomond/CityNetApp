@@ -8,9 +8,9 @@
 import UIKit
 import CityNetUIkit
 
-class AppStepper: UIControl, ThemeableView {
+class AppStepper: UIControl {
     
-    var theme: ThemeProvider = App.theme
+    
     
     struct ViewData {
         let minimum: Double

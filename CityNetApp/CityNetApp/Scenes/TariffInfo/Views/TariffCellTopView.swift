@@ -8,9 +8,9 @@
 import UIKit
 import CityNetUIkit
 
-class TariffCellTopView: UIView, ThemeableView {
+class TariffCellTopView: UIView {
 
-    var theme: ThemeProvider = App.theme
+    
     
     var title: String? {
         didSet {

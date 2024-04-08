@@ -10,17 +10,20 @@ import CityNetUIkit
 
 protocol DashboardViewDelegate: AnyObject {}
 
-final class DashboardView: UIView, ThemeableView {
+final class DashboardView: UIView {
     
-    var theme: ThemeProvider = App.theme
+    
     weak var delegate: DashboardViewDelegate?
-    
     
     lazy var customNavBarView: CustomNavBarView = {
         let view = CustomNavBarView()
         return view
     }()
     
+    lazy var addressesView: AddressesView = {
+        let view = AddressesView(frame: .init(x: 0, y: 0, width: frame.width, height: 380.0))
+        return view
+    }()
     
     lazy var cardView: CardView = {
         let view = CardView()
@@ -42,6 +45,9 @@ final class DashboardView: UIView, ThemeableView {
         tableView.register(SpeedCardsTableViewCell.self, forCellReuseIdentifier: SpeedCardsTableViewCell.reuseIdentifier)
         tableView.register(NoOperationsTableViewCell.self, forCellReuseIdentifier: NoOperationsTableViewCell.reuseIdentifier)
         tableView.register(OperationsTableViewCell.self, forCellReuseIdentifier: OperationsTableViewCell.reuseIdentifier)
+        
+        tableView.tableHeaderView = addressesView
+        
         return tableView
     }()
     
@@ -58,8 +64,9 @@ final class DashboardView: UIView, ThemeableView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    
     override func updateConstraints() {
+        super.updateConstraints()
+        
         self.customNavBarView.snp.updateConstraints { make in
             make.top.equalTo(self.safeAreaLayoutGuide.snp.top)
             make.leading.equalToSuperview().offset(16)
@@ -78,8 +85,6 @@ final class DashboardView: UIView, ThemeableView {
             make.top.equalTo(customNavBarView.snp.bottom)
             make.leading.trailing.bottom.equalToSuperview()
         }
-        
-        super.updateConstraints()
     }
     
     

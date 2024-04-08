@@ -8,11 +8,11 @@
 import UIKit
 import CityNetUIkit
 
-class StoryCollectionViewCell: UICollectionViewCell, ThemeableView {
+class StoryCollectionViewCell: UICollectionViewCell {
 
     static let identifier = "StoryCollectionViewCell"
     
-    var theme: ThemeProvider = App.theme
+    
     
     private lazy var cardView: UIView = {
         let view = UIView()

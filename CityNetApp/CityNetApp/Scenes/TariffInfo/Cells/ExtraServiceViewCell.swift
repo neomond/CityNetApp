@@ -14,9 +14,9 @@ import CityNetUIkit
     @objc optional func sendStepperValue(_ value: Double)
 }
  
-class AdditionalServiceViewCell: UITableViewCell, ThemeableView, AdditionalServiceViewCellDelegate, ExtraServiceSingleViewDelegate {
+class AdditionalServiceViewCell: UITableViewCell, AdditionalServiceViewCellDelegate, ExtraServiceSingleViewDelegate {
     
-    var theme: ThemeProvider = App.theme
+    
 
     var serviceList: [ServiceOptionType]? {
         didSet {
